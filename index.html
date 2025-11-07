@@ -100,6 +100,15 @@
             bottom:0px;
             width: 150px;
         }
+        #scrollToTopBottom{
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            padding: 10px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
         @media (max-width: 800px) {
             header img{
                 width: 80px;
@@ -110,6 +119,9 @@
 <body>
     <div class="background-container">
     </div>
+    <button id='scrollToTopBottom'>
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
     <div class="copied-cnd">
         Đã Copy CDN
     </div>
@@ -129,6 +141,10 @@
     <script src="scripts.js"></script> 
 </body>
 <script>
+    const scrollToTopBtn = document.getElementById('scrollToTopBottom');
+
+
+    
     const buttonCopyCDN = document.getElementById("copyCDN");
     const copyedCDN = document.querySelector(".copied-cnd");
     buttonCopyCDN.addEventListener("click",async ()=>{
