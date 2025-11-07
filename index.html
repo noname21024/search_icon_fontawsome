@@ -15,17 +15,43 @@
     
     <!-- style of header -->
     <style>
-        .background-container{
-            background-image: url("images/ảnh nền.jpg");
+        .background-container {
             position: absolute;
-            width: 100%;
-            height: 100%;
             top: 0;
             left: 0;
+            width: 100%;
+            height: 100%;
             z-index: -1;
-            background-blend-mode: overlay;
-            background-color: #68eeee;
-            opacity: .4;
+            opacity: .9;
+        }
+
+        /* Lớp ảnh nền */
+        .background-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("images/ảnh nền.jpg");
+            opacity: .6;
+        }
+
+        /* Lớp phủ màu #68eeee với hiệu ứng "overlay-like" */
+        .background-container::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* Mẹo: Dùng gradient để mô phỏng overlay (tối vùng tối, sáng vùng sáng) */
+            /* Đây là cách gần nhất với overlay khi không dùng blend-mode */
+            background: linear-gradient(
+                rgba(104, 238, 238, 0.4), 
+                rgba(104, 238, 238, 0.4)
+            );
+        /* Hoặc nếu muốn đơn giản hơn: background-color: rgba(104, 238, 238, 0.4); */
         }
         header{
             display: flex;
