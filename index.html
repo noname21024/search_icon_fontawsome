@@ -100,6 +100,30 @@
             bottom:0px;
             width: 150px;
         }
+        #scrollToTopBottom{
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            padding: 15px 17px;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 5;
+            border: 1px black solid;
+            background-color: white;
+            box-shadow: 0px 5px black;
+            transition: all .3s ease;
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        #scrollToTopBottom:hover{
+            background-color: #ffd803;
+        }
+        #scrollToTopBottom.active{
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
         @media (max-width: 800px) {
             header img{
                 width: 80px;
@@ -110,6 +134,9 @@
 <body>
     <div class="background-container">
     </div>
+    <button id='scrollToTopBottom'>
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
     <div class="copied-cnd">
         Đã Copy CDN
     </div>
@@ -129,6 +156,24 @@
     <script src="scripts.js"></script> 
 </body>
 <script>
+    const scrollToTopBtn = document.getElementById('scrollToTopBottom');
+    
+    window.addEventListener("scroll", function(){
+        if(window.pageYOffset > 200){
+            scrollToTopBtn.classList.add("active");
+        }
+        else{
+            scrollToTopBtn.classList.remove("active");
+        }
+    })
+
+    scrollToTopBtn.addEventListener("click", function(){
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    })
+
     const buttonCopyCDN = document.getElementById("copyCDN");
     const copyedCDN = document.querySelector(".copied-cnd");
     buttonCopyCDN.addEventListener("click",async ()=>{
