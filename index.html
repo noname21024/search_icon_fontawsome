@@ -123,6 +123,52 @@
             opacity: 1;
             pointer-events: auto;
         }
+        #pagination{
+            margin: 30px 0;
+        }
+        #pagination button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: none;
+            background-color: #ffd803;
+            cursor: pointer;
+            border-radius: 5px;
+            color: rgb(24 49 83);
+            font-weight: 700;
+            font-size: .9rem;
+            box-shadow: 5px 5px black;
+        }
+        #pagination button:disabled {
+            background-color: rgb(217 217 217);
+            cursor: not-allowed;
+        }
+        #pagination span {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .pagination-input {
+            border: 1px black solid;
+            border-radius: 5px; 
+            background: transparent;
+            font: inherit;
+            font-weight: bold;
+            text-align: center;
+            width: auto;
+            min-width: 50px; 
+            color: inherit;
+            padding: 0px;
+            margin: 0 5px; 
+            box-shadow: 0px 5px black;
+        }
+        .pagination-input::-webkit-inner-spin-button,
+        .pagination-input::-webkit-outer-spin-button{
+            display: none;
+            margin: 0;
+        }
+
+        .pagination-input:focus {
+            outline: none; 
+        }
         
         @media (max-width: 800px) {
             header img{
@@ -151,6 +197,7 @@
             <input type="text" id="searchInput" placeholder="Tìm kiếm Icons bằng tên hoặc bằng nhãn...">
         </div>
         <div id="iconGrid"></div>
+        <div id="pagination" style="text-align: center;"></div>
     </div>
     <!-- <p class="copied">Đã copy</p> -->
     <script src="scripts.js"></script> 

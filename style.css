@@ -2,11 +2,10 @@ body {
     font-family: "Poppins";
     background-color: rgb(240 241 243);
     margin: 0;
-    padding: 20px;
     position: relative;
     min-height: 100vh;
     margin: 0;
-    padding: 0;
+    padding: 0 0 20px;
 }
 body::-webkit-scrollbar{
     width: 8px;
