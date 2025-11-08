@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu - Copy Icons</title>
+    
+    <!-- Link Google Font (giống trang chủ) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Link Font Awesome (cho icon "Back") -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Link CSS cho trang này -->
+    <link rel="stylesheet" href="about.css">
+    <style>
+        /* --- Các style cơ bản (lấy từ style.css) --- */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(240 241 243);
+    margin: 0;
+    position: relative; /* Cần cho footer */
+    min-height: 100vh;
+    box-sizing: border-box;
+    /* Thêm padding-bottom để footer không che nội dung */
+    padding-bottom: 160px; /* Chiều cao dự kiến của footer */
+}
+
+/* --- Header của trang About --- */
+.about-header {
+    background-color: #ffd803; /* Màu vàng theme chính */
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s ease;
+}
+.back-link:hover {
+    transform: translateX(-5px);
+}
+
+/* --- Wrapper cho nội dung chính --- */
+.content-wrapper {
+    max-width: 1000px;
+    margin: 30px auto; /* Căn giữa và tạo khoảng cách */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* --- Box chứa nội dung "Giới thiệu" --- */
+.about-container {
+    padding: 30px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.7;
+    font-size: 1rem;
+    color: #333;
+}
+
+.about-container h2 {
+    color: #000;
+    border-bottom: 2px solid #ffd803; /* Màu vàng theme */
+    padding-bottom: 5px;
+}
+
+.about-container h3 {
+    color: #111;
+    margin-top: 30px;
+}
+
+.about-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* --- Footer (Style giống hệt gợi ý trước) --- */
+.footer {
+    background-color: #333;
+    color: #aaa;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 1px solid #444;
+    
+    /* Dính xuống đáy */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box; /* Quan trọng để padding không làm vỡ layout */
+}
+.footer-links {
+    margin-bottom: 15px;
+}
+.footer-links a {
+    color: #ffd803; /* Màu link vàng cho hợp theme */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.footer p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+    </style>
+</head>
+<body>
+
+    <!-- Header đơn giản cho trang "Giới thiệu" -->
+    <header class="about-header">
+        <div class="header-content">
+            <a href="index.html" class="back-link">
+                <i class="fa-solid fa-arrow-left"></i>
+                <span>Quay lại trang chủ</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Nội dung chính -->
+    <main class="content-wrapper">
+        <div class="about-container">
+            <h2>Về CopyIcons.click</h2>
+            <p>
+                Chào mừng bạn đến với <strong>CopyIcons.click</strong>! Đây là một dự án cá nhân được xây dựng với mục tiêu tạo ra một công cụ nhanh chóng và đơn giản nhất để tìm kiếm và sao chép các biểu tượng (icons) miễn phí từ Font Awesome.
+            </p>
+            <p>
+                Là một nhà phát triển web, tôi thường xuyên cần tìm và sử dụng các biểu tượng. Quá trình tìm kiếm trên trang chủ đôi khi hơi chậm và tôi muốn một giải pháp "mì ăn liền" - gõ, tìm, và nhấp để copy mã HTML.
+            </p>
+            
+            <h3>Tính năng chính</h3>
+            <ul>
+                <li><strong>Tìm kiếm tức thì:</strong> Lọc qua hàng ngàn biểu tượng miễn phí một cách nhanh chóng.</li>
+                <li><strong>Copy 1-Click:</strong> Chỉ cần nhấp vào biểu tượng bạn muốn, mã HTML sẽ tự động được sao chép vào clipboard.</li>
+                <li><strong>Copy CDN:</strong> Lấy link CDN của các phiên bản Font Awesome phổ biến chỉ bằng một cú nhấp chuột.</li>
+                <li><strong>Hỗ trợ nhiều phiên bản:</strong> Dễ dàng chuyển đổi và tìm kiếm giữa các phiên bản Font Awesome (v5, v6, v7).</li>
+                <li><strong>Mã nguồn mở:</strong> Toàn bộ trang web này được xây dựng bằng HTML, CSS và JavaScript thuần, bạn có thể xem mã nguồn trên GitHub.</li>
+            </ul>
+
+            <h3>Tuyên bố</h3>
+            <p>
+                Trang web này là một dự án cá nhân và không liên kết, tài trợ, hoặc được chứng thực bởi Font Awesome. Tất cả biểu tượng, tên thương hiệu và dữ liệu là tài sản của Font Awesome.
+            </p>
+        </div>
+    </main>
+
+    <!-- Footer (dùng chung style) -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="index.html">Trang chủ</a>
+            <!-- NHỚ SỬA EMAIL NÀY -->
+            <a href="mailto:ten-email-cua-ban@gmail.com">Góp ý & Báo lỗi</a>
+            <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Font Awesome</a>
+        </div>
+        
+        <p>
+            © 2025 copyicons.click.
+        </p>
+        <p>
+            Trang web này không liên kết chính thức với Font Awesome.
+        </p>
+    </footer>
+
+</body>
+</html>
