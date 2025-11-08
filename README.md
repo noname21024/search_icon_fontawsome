@@ -15,7 +15,6 @@ Trải nghiệm **công cụ copy icon siêu tốc** và bắt đầu tích hợ
 [**🔗 LIVE DEMO & SỬ DỤNG MIỄN PHÍ: https://copyicons.click/**](https://copyicons.click/)
 
 ## 🛠 Cấu trúc Dự án
-*(Bạn có thể thêm phần này nếu muốn khoe mã nguồn hoặc công nghệ sử dụng, ví dụ:)*
 Dự án được xây dựng bằng HTML, CSS (Sass) và JavaScript thuần túy, tập trung vào tốc độ tải trang.
 
 ## 📄 Giấy phép

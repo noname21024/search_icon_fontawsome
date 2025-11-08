@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copy Icons</title>
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" id="fontawesomeCss" href="data/fontawesome-free-6.7.2-web/css/all.css">
     <link rel="stylesheet" href="style.css">    
     <link rel="icon" href="images/ảnh logo 2.png">
+    
 
     <meta property="og:title" content="Copy Icons: Sao chép biểu tượng Font Awesome siêu nhanh">
     <meta property="og:description" content="Trang web giúp bạn sao chép biểu tượng (icon) và CDN của Font Awesome chỉ với 1 click.">
@@ -17,9 +18,9 @@
     <link rel="canonical" href="https://copyicons.click/">
 
     <!-- link google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <!-- style of header -->
     <style>
@@ -30,7 +31,7 @@
             width: 100%;
             height: 100%;
             z-index: -1;
-            opacity: .9;
+            opacity: .8;
         }
 
         /* Lớp ảnh nền */
@@ -42,7 +43,7 @@
             width: 100%;
             height: 100%;
             background-image: url("images/ảnh nền.jpg");
-            opacity: .6;
+            opacity: .5;
         }
 
         /* Lớp phủ màu #68eeee với hiệu ứng "overlay-like" */
@@ -56,12 +57,12 @@
             /* Mẹo: Dùng gradient để mô phỏng overlay (tối vùng tối, sáng vùng sáng) */
             /* Đây là cách gần nhất với overlay khi không dùng blend-mode */
             background: linear-gradient(
-                rgba(104, 238, 238, 0.4), 
+                rgba(126, 250, 250, 0.4), 
                 rgba(104, 238, 238, 0.4)
             );
         /* Hoặc nếu muốn đơn giản hơn: background-color: rgba(104, 238, 238, 0.4); */
         }
-        header{
+        .header{
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -75,9 +76,9 @@
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;    
             position: relative;
-            font-family: "Pacifico", cursive;
+            font-family: "Sour Gummy", sans-serif;
         }
-        header button{
+        .header button{
             padding: 15px 20px;
             border: none;
             border-radius: 40px;
@@ -85,24 +86,24 @@
             font-weight: 700;
             cursor: pointer;
             background-color: white;
-            box-shadow: 0px 5px 0px  black;
-            transition: all .3s ease-in-out;
-        }
-        header button:hover{
-            transform: translateY(-5px);
             box-shadow: 0px 7px 0px  black;
+            transition: all .2s ease;
         }
-        header button:active{
-            transform: translateY(0);
+        .header button:hover{
+            background-color:#e1e1e1;
+        }
+        .header button:active{
+            transform: translateY(10px);
             box-shadow: 0px 5px 0px  black;
         }
         
-        h1 {
+        .header h1 {
             text-align: center;
             color: black;
             font-size: 40px;
+            margin: 20px 0;
         }
-        header > *{
+        .header > *{
             margin: 0;
         }
         .copied-cnd{
@@ -127,7 +128,7 @@
             transform: translateY(0);
         }
 
-        header img{
+        .header img{
             position: absolute;
             /* object-fit: cover; */
             right: 20px;
@@ -204,10 +205,61 @@
         .pagination-input:focus {
             outline: none; 
         }
+
+        @media (max-width: 960px) {
+            .header h1{
+                font-size: 35px;
+            }
+            .header img{
+                width: 120px;
+            }
+        }
         
         @media (max-width: 800px) {
-            header img{
+            .header img{
                 width: 80px;
+            }
+            h1{
+                font-size: 28px;
+                 margin: 5px 0;
+            }
+
+            #iconGrid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+                gap: 10px;
+                padding: 20px;
+            }
+            .icon-card{
+                height: 90px;
+            }
+
+            .icon-card i {
+                font-size: 20px;
+            }
+
+            .icon-card p {
+                margin: 5px 0;
+                font-size: 13px;
+                color: #555;
+                width: 90px;
+            }
+
+            .info-container #totalIcons{
+                font-size: 1rem;
+            }
+
+            .info-container .version-fontawesome_container{
+                gap: 5px;
+            }
+            .info-container .version-fontawesome_container select{
+                padding: 5px 15px;
+                font-size: .9rem;
+            }
+
+            .info-container .version-fontawesome_container a{
+                padding: 5px 5px;
+                font-size: .85rem;
             }
         }
     </style>
@@ -222,19 +274,29 @@
         Đã Copy CDN
     </div>
     <div class="container">
-        <header>
+        <div class="header">
             <img src="images/anh_gau_cute.png" alt="">
-            <h1>Font Awesome 6.7.2 Icon</h1>
+            <h1>Quick Copy Font Awesome Free</h1>
             <button id="copyCDN">Nhấn Để Nhận CDN</button>
-        </header>
+        </div>
         <div class="search-container">
             <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text" id="searchInput" placeholder="Tìm kiếm Icons bằng tên hoặc bằng nhãn...">
         </div>
-        <div class="info">
-
+        <div class="info-container">
+            <p id="totalIcons">Hiện có: <span id="total">1230</span> icons</p>
+            <div class="version-fontawesome_container">
+                <select name="" id="fontawesome_version" class="version">
+                    <option value="" disabled selected>Version</option>
+                    <option value="5.15.4">5.15.4</option>
+                    <option value="6.7.2">6.7.2</option>
+                    <option value="7.1.0">7.1.0</option>
+                </select>
+                <a href="" class="download-btn">Download files</a>
+            </div>
         </div>
-        <div id="iconGrid"></div>
+        <div id="iconGrid">
+        </div>
         <div id="pagination" style="text-align: center;"></div>
     </div>
     <!-- <p class="copied">Đã copy</p> -->
@@ -259,14 +321,14 @@
         })
     })
     
-    const buttonCopyCDN = document.getElementById("copyCDN");
-    const copyedCDN = document.querySelector(".copied-cnd");
-    buttonCopyCDN.addEventListener("click",async ()=>{
-        copyedCDN.classList.add('active');
-        await navigator.clipboard.writeText(`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />`);
-        setTimeout(()=>{
-            copyedCDN.classList.remove("active");
-        },1500)
-    })
+    // const buttonCopyCDN = document.getElementById("copyCDN");
+    // const copyedCDN = document.querySelector(".copied-cnd");
+    // buttonCopyCDN.addEventListener("click",async ()=>{
+    //     copyedCDN.classList.add('active');
+    //     await navigator.clipboard.writeText(`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />`);
+    //     setTimeout(()=>{
+    //         copyedCDN.classList.remove("active");
+    //     },1500)
+    // })
 </script>
 </html>

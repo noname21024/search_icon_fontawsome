@@ -31,15 +31,12 @@ body::-webkit-scrollbar-track{
     margin: 0 auto;
 }
 
-
-
 .search-container{
     display: flex;
     gap: 10px;
     align-items: center;
     box-sizing: border-box;
     padding: 20px;
-    /* margin-bottom: 20px; */
     background-color: white;
     border-radius: 40px;
     border: 1px black solid;
@@ -83,15 +80,10 @@ body::-webkit-scrollbar-track{
     align-items: center;
     flex-direction: column;
     height: 125px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     transition: all .3s ease;
 }
-.icon-card  p{
-    width: 100px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-align: center;
-    text-overflow: ellipsis;
-}
+
 /* #ffd43b */
 .icon-card:hover{
     background-color: #ffd43b;
@@ -128,5 +120,52 @@ body::-webkit-scrollbar-track{
     margin: 5px 0;
     font-size: 14px;
     color: #555;
+     width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    text-overflow: ellipsis;
 }
 
+
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.info-container #totalIcons{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.info-container .version-fontawesome_container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.info-container .version-fontawesome_container select{
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info-container .version-fontawesome_container a{
+    text-decoration: none;
+    padding: 7px 9px;
+    border: 1px rgb(109, 109, 109) solid;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 5px 5px black;
+    transition: all .3s ease;
+}
+.info-container .version-fontawesome_container a:hover{
+    background-color: #ffd43b;
+}
