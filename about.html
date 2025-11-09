@@ -25,19 +25,16 @@
     <!-- Link Font Awesome (cho icon "Back") -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Link CSS cho trang này -->
-    <link rel="stylesheet" href="about.css">
     <style>
        
 body {
     font-family: "Poppins", sans-serif;
     background-color: rgb(240 241 243);
     margin: 0;
-    position: relative; /* Cần cho footer */
+    position: relative;
     min-height: 100vh;
     box-sizing: border-box;
-    /* Thêm padding-bottom để footer không che nội dung */
-    padding-bottom: 160px; /* Chiều cao dự kiến của footer */
+    padding-bottom: 160px;
 }
 
 /* --- Header của trang About --- */
@@ -134,6 +131,30 @@ body {
     margin: 5px 0;
     line-height: 1.6;
 }
+
+@media (max-width: 800px) {
+    .back-link{
+        font-size: 1rem;
+    }
+    .about-container {
+        font-size: .9rem;
+    }
+    .about-container h2{
+        font-size: 1.2rem;
+    }
+    .about-container h3{
+        font-size: 1.1rem;
+    }
+    .about-container ul{
+        font-size: .9rem;
+    }
+    .footer-links a {
+        font-size: .9rem;
+    }
+    .footer p {
+        font-size: .9rem;
+    }
+}
     </style>
 </head>
 <body>
@@ -183,7 +204,6 @@ body {
             <a href="mailto:ten-email-cua-ban@gmail.com">Góp ý & Báo lỗi</a>
             <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Font Awesome</a>
         </div>
-        
         <p>
             © 2025 copyicons.click.
         </p>
@@ -191,6 +211,5 @@ body {
             Trang web này không liên kết chính thức với Font Awesome.
         </p>
     </footer>
-
 </body>
 </html>
