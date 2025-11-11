@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let totalPages = 0; 
     let filteredIcons = []; 
     let totalIcons = 0;
-    let currentVersion = localStorage.getItem('selectedVersion') || "7.1.0";  // Đọc từ LocalStorage, default 7.1.0
+    let currentVersion = localStorage.getItem('selectedVersion') || "7.1.0";  
 
     const cdnLinks = {
         "5.15.4": '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />',
@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "7.1.0": "downloads/fontawesome-free-7.1.0-web.zip"
     };
 
-    // Cập nhật select box với version lưu trữ
     versionIcons.value = currentVersion;
 
     updateFontAwesomeCss(currentVersion);
@@ -32,19 +31,16 @@ document.addEventListener('DOMContentLoaded', () => {
     downloadBtn.href = zipPaths[currentVersion] || zipPaths["7.1.0"];
     downloadBtn.download = `fontawesome-free-${currentVersion}-web.zip`;
 
-    // Cập nhật icon search
     const searchIcon = document.querySelector('.search-container i');
     const searchClasses = getIconClasses('search', currentVersion);
     searchIcon.className = ''; // Xóa class cũ
     searchIcon.classList.add(...searchClasses);
 
-    // Cập nhật icon scroll-to-top
     const scrollIcon = document.getElementById('scrollToTopBottom').querySelector('i');
     const scrollClasses = getIconClasses('arrow-up', currentVersion);
     scrollIcon.className = '';
     scrollIcon.classList.add(...scrollClasses);
 
-    // Thêm logic copy CDN động (di chuyển từ HTML)
     const buttonCopyCDN = document.getElementById("copyCDN");
     const copyedCDN = document.querySelector(".copied-cnd");
     buttonCopyCDN.addEventListener("click", async () => {
@@ -61,39 +57,33 @@ document.addEventListener('DOMContentLoaded', () => {
         link.href = `data/fontawesome-free-${version}-web/css/all.css`
     }
 
-    // hàm lấy version của fontaswesome
     versionIcons.addEventListener("change", function(){
         currentVersion = this.value;
-        localStorage.setItem('selectedVersion', currentVersion);  // Lưu vào LocalStorage
+        localStorage.setItem('selectedVersion', currentVersion); 
         currentPage = 1;
         updateFontAwesomeCss(currentVersion);
         fetchIcons(currentVersion);
         downloadBtn.href = zipPaths[currentVersion] || zipPaths["7.1.0"];
         downloadBtn.download = `fontawesome-free-${currentVersion}-web.zip`;
 
-        // Cập nhật icon search
         const searchIcon = document.querySelector('.search-container i');
         const searchClasses = getIconClasses('search', currentVersion);
         searchIcon.className = ''; // Xóa class cũ
         searchIcon.classList.add(...searchClasses);
 
-        // Cập nhật icon scroll-to-top
         const scrollIcon = document.getElementById('scrollToTopBottom').querySelector('i');
         const scrollClasses = getIconClasses('arrow-up', currentVersion);
         scrollIcon.className = '';
         scrollIcon.classList.add(...scrollClasses);
     })
     
-    // hàm lấy icon từ folder
     function getStylePrefix(style, version) {
         const majorVer = parseInt(version.split('.')[0]);
         if (majorVer <= 5) {
-            // v5: solid → fas, regular → far, brands → fab
             return style === 'solid' ? 'fas' :
                 style === 'regular' ? 'far' :
                 style === 'brands' ? 'fab' : 'fas';
         } else {
-            // v6+: solid → fa-solid, ...
             return `fa-${style}`;
         }
     }
@@ -122,26 +112,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function fetchIcons(version){
-        let url = `data/fontawesome-free-${version}-web/metadata/icons.json`;
+        let url = `data/fontawesome-free-${version}-web/metadata/icons-optimized.json`;
         icons = [];
         fetch(url)
             .then(response => response.json())
             .then(data => {
-                // Process data to get free icons (solid, regular, brands)
                 for (const [name, iconData] of Object.entries(data)) {
-                    if (iconData.free && iconData.free.length > 0) {
-                        iconData.free.forEach(style => {
-                            icons.push({
-                                name: name,
-                                label: iconData.label,
-                                style: style, 
-                                prefix: getStylePrefix(style, version), 
-                                version: version,
-                            });
+                    iconData.f.forEach(style => {
+                        icons.push({
+                            name: name,
+                            label: iconData.l,
+                            style: style, 
+                            prefix: getStylePrefix(style, version), 
+                            version: version,
+                            terms: iconData.t || []
                         });
-                    }
+                    });
                 }
-                // hiển thị tổng icon, tổng icon và page
                 filteredIcons = icons;
                 totalIcons = filteredIcons.length;
                 totalPages = Math.ceil(filteredIcons.length / iconsPerPage);
@@ -153,22 +140,28 @@ document.addEventListener('DOMContentLoaded', () => {
             .catch(error => console.error('Error loading icons:', error));
     }
     
-    // Search event listener
     searchInput.addEventListener('input', () => {
         const query = searchInput.value.toLowerCase();
-        filteredIcons = icons.filter(icon => 
-            icon.name.toLowerCase().includes(query) || icon.label.toLowerCase().includes(query)
-        );
+        
+        filteredIcons = icons.filter(icon => {
+            const nameMatch = icon.name.toLowerCase().includes(query);
+            const labelMatch = icon.label.toLowerCase().includes(query);
+            
+            const termsMatch = icon.terms.some(term => term.toLowerCase().includes(query));
+
+            return nameMatch || labelMatch || termsMatch;
+        });
+        
         totalIcons = filteredIcons.length;
         gettotalIcons(totalIcons);
-        totalPages = Math.ceil(filteredIcons.length / iconsPerPage); // Cập nhật tổng trang
-        currentPage = 1; // Reset về trang 1
+        totalPages = Math.ceil(filteredIcons.length / iconsPerPage); 
+        currentPage = 1; 
         displayIconsForPage(currentPage);
         renderPagination();
     });
 
     function displayIconsForPage(page) {
-        iconGrid.innerHTML = '';  // Clear grid
+        iconGrid.innerHTML = ''; 
         if (filteredIcons.length === 0) {
             iconGrid.style.display = 'block';
             const noResult = document.createElement('p');
@@ -179,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
             noResult.style.fontWeight = 'bold';
             noResult.style.margin = '20px 0';
             iconGrid.appendChild(noResult);
-            return;  // Kết thúc hàm để tránh xử lý thêm
+            return;
         }
         iconGrid.style.display = 'grid'
         const start = (page - 1) * iconsPerPage;
@@ -279,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
         inputPage.min = 1;
         inputPage.max = totalPages; 
 
-        paginationContainer.insertBefore(inputPage, pageInfo.nextSibling); // Giữ vị trí chính xác
+        paginationContainer.insertBefore(inputPage, pageInfo.nextSibling); 
         inputPage.focus(); 
         inputPage.select();
 
