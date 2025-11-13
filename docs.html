@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài Liệu - Copy Icons</title>
+
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Icon của trang -->
+    <link rel="icon" href="images/logo.png">
+
+    <!-- Font Awesome (cho icons chung) -->
+    <link rel="stylesheet" href="data/fontawesome/fontawesome-free-7.1.0-web/css/all.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS tùy chỉnh cho docs (thêm nếu cần, hoặc dùng style.css hiện có) -->
+    <style>
+        .docs-container { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; background-color: white; border-radius: 10px;}
+        .docs-section { margin-bottom: 3rem; }
+        .docs-section h2 { color: #333; border-bottom: 2px solid #ffd803; padding-bottom: 0.5rem; }
+        .docs-section h3 { color: #555; margin-top: 1.5rem; }
+        .docs-list { list-style-type: none; padding: 0; }
+        .docs-list li { margin-bottom: 0.5rem; padding-left: 1.5rem; position: relative; }
+        .docs-list li:before { content: "→"; position: absolute; left: 0; color: #ffd803; }
+        code { background: #f4f4f4; padding: 0.2rem 0.4rem; border-radius: 3px; font-family: monospace; }
+        pre { background: #f4f4f4; padding: 1rem; border-radius: 5px; overflow-x: auto; }
+        .tip-box { background: #e8f5e8; border-left: 4px solid #4caf50; padding: 1rem; margin: 1rem 0; }
+    </style>
+</head>
+<body>
+    <div class="background-container"></div>
+    <!-- === HEADER === -->
+    <header class="main-header">
+        <nav class="container main-nav">
+            <a href="home.html" class="logo-link">
+                <img src="images/logo.png" alt="Logo" class="logo-img">
+                <span class="logo-text">CopyIcons</span>
+            </a>
+            <div class="nav-links-desktop">
+                <a href="home.html">Home</a>
+                <a href="render.html">Collections</a>
+                <a href="docs.html" class="active">Docs</a>
+                <a href="about.html">About</a>
+            </div>
+
+            <button id="mobile-menu-button" class="mobile-menu-button" aria-label="Mở menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile-menu" class="mobile-menu container">
+            <a href="home.html">Home</a>
+            <a href="index.html">Collections</a>
+            <a href="docs.html" class="active">Docs</a>
+            <a href="#">Downloads</a>
+            <a href="about.html">About</a>
+        </div>
+    </header>
+
+    <main class="main-home_page col-7">
+        <section class="docs-container">
+            <div class="docs-section">
+                <h1>Tài Liệu Hướng Dẫn - Copy Icons</h1>
+                <p>Chào mừng đến với tài liệu chính thức của Copy Icons. Tài liệu này cung cấp hướng dẫn chi tiết về cách sử dụng ứng dụng để duyệt, tìm kiếm và tích hợp icons vào dự án của bạn. Ứng dụng được thiết kế đơn giản, hỗ trợ các bộ sưu tập như Font Awesome và Lawnicons, với tính năng lazy loading và tìm kiếm semantic.</p>
+                <p><strong>Phiên bản hiện tại:</strong> 1.0 (Cập nhật ngày 13 tháng 11 năm 2025).<br>
+                <strong>Liên hệ:</strong> [Góp ý & Báo lỗi](mailto:van2100@gmail.com).</p>
+            </div>
+
+            <div class="docs-section">
+                <h2>Yêu Cầu Hệ Thống</h2>
+                <ul class="docs-list">
+                    <li>Trình duyệt hiện đại (Chrome, Firefox, Safari, Edge) với hỗ trợ JavaScript và IndexedDB.</li>
+                    <li>Kết nối internet để tải dữ liệu ban đầu (sau đó hỗ trợ offline qua cache IndexedDB).</li>
+                    <li>Kích thước màn hình tối thiểu: 320px (responsive cho mobile).</li>
+                </ul>
+            </div>
+
+            <div class="docs-section">
+                <h2>Bắt Đầu Sử Dụng</h2>
+                <h3>Bước 1: Truy Cập Trang Chính</h3>
+                <p>Mở trang <a href="home.html">Home</a> hoặc truy cập trực tiếp vào ứng dụng. Từ menu, chọn **Collections** để xem danh sách bộ sưu tập.</p>
+
+                <h3>Bước 2: Chọn Bộ Sưu Tập</h3>
+                <ul class="docs-list">
+                    <li>Nhấp vào thẻ (card) trong phần **Collections** trên trang chính để mở bộ sưu tập (ví dụ: Font Awesome 7.1.0 hoặc Lawnicons).</li>
+                    <li>Sử dụng URL trực tiếp: Thêm `?collection=fontawesome-7.1.0` vào địa chỉ.</li>
+                    <li>Với Font Awesome: Sử dụng dropdown **Version** ở đầu trang để chuyển phiên bản (hiển thị ngắn gọn như 7.1.0 hoặc 5.15.4).</li>
+                </ul>
+
+                <h3>Bước 3: Duyệt và Tìm Kiếm Icons</h3>
+                <ul class="docs-list">
+                    <li><strong>Duyệt theo trang:</strong> Icons hiển thị dưới dạng lưới với 100 icons/trang. Sử dụng nút **Previous/Next** hoặc nhấp số trang để chuyển (cuộn mượt lên đầu trang).</li>
+                    <li><strong>Tìm kiếm:</strong> Nhập từ khóa vào ô tìm kiếm (hỗ trợ tên, tags, mô tả, category).
+                        <ul style="margin-left: 1rem; list-style-type: disc;">
+                            <li>Ví dụ: "home" → Icons trang chủ.</li>
+                            <li>Với tags nâng cao (Lawnicons): "media" → Icons liên quan đến nội dung/entertainment.</li>
+                            <li>Kết quả được phân trang tự động, ưu tiên theo độ liên quan.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="tip-box">
+                    <strong>Mẹo:</strong> Tìm kiếm semantic sử dụng tags, description và category để tìm icons theo chức năng, không chỉ tên.
+                </div>
+            </div>
+
+            <div class="docs-section">
+                <h2>Sao Chép và Tích Hợp Icons</h2>
+                <h3>Sao Chép Mã</h3>
+                <ul class="docs-list">
+                    <li>Nhấp vào icon để sao chép mã HTML (ví dụ: <code>&lt;i class="fa-solid fa-home"&gt;&lt;/i&gt;</code>).</li>
+                    <li>Thông báo "Đã copy code" hiện tạm thời để xác nhận.</li>
+                    <li>Hỗ trợ clipboard API; kiểm tra quyền truy cập nếu thất bại.</li>
+                </ul>
+
+                <h3>Tải Xuống Tài Nguyên</h3>
+                <ul class="docs-list">
+                    <li>Nhấp **Download** để tải ZIP đầy đủ (CSS, fonts, metadata).</li>
+                    <li>Lawnicons: <code>lawnicons-all-v1.0.zip</code>.</li>
+                    <li>Font Awesome: Phiên bản web tương ứng (ví dụ: <code>fontawesome-free-7.1.0-web.zip</code>).</li>
+                </ul>
+
+                <h3>Sử Dụng CDN</h3>
+                <ul class="docs-list">
+                    <li>Nhấp **Copy CDN** để sao chép thẻ <code>&lt;link&gt;</code> CSS.</li>
+                    <li>Dán vào <code>&lt;head&gt;</code> dự án: <pre><code>&lt;link rel="stylesheet" href="data/lawnicons/all.css" /&gt;</code></pre></li>
+                </ul>
+            </div>
+
+            <div class="docs-section">
+                <h2>Tính Năng Nâng Cao</h2>
+                <ul class="docs-list">
+                    <li><strong>Phân trang mượt mà:</strong> Cuộn tự động lên đầu với <code>behavior: 'smooth'</code>.</li>
+                    <li><strong>Lazy loading (Lawnicons):</strong> Chỉ tải icons trang hiện tại; tìm kiếm tải full nếu cần.</li>
+                    <li><strong>Nút cuộn lên đầu:</strong> Xuất hiện khi cuộn >200px.</li>
+                    <li><strong>Mobile-friendly:</strong> Menu hamburger; icons responsive.</li>
+                    <li><strong>Offline hỗ trợ:</strong> Cache IndexedDB cho chunks và metadata.</li>
+                </ul>
+            </div>
+
+            <div class="docs-section">
+                <h2>Xử Lý Lỗi và Mẹo</h2>
+                <ul class="docs-list">
+                    <li><strong>Lỗi tải icons:</strong> Kiểm tra kết nối; xóa cache IndexedDB (DevTools > Application > IndexedDB).</li>
+                    <li><strong>Custom domain:</strong> Sử dụng đường dẫn tương đối (ví dụ: <code>/data/lawnicons/all.css</code>).</li>
+                    <li><strong>Thêm collection mới:</strong> Cập nhật <code>collections-database.json</code> và chạy <code>split_selections.py</code> nếu cần chunks.</li>
+                    <li><strong>Debug:</strong> Mở Console (F12) để xem log lỗi.</li>
+                </ul>
+            </div>
+
+            <div class="docs-section">
+                <h2>Hỗ Trợ Thêm</h2>
+                <ul class="docs-list">
+                    <li><strong>Tài liệu đầy đủ:</strong> Trang này (docs.html).</li>
+                    <li><strong>Cộng đồng:</strong> Tham gia [Font Awesome](https://fontawesome.com/) hoặc gửi email góp ý.</li>
+                    <li><strong>Báo lỗi:</strong> Sử dụng liên hệ hoặc console log.</li>
+                </ul>
+                <p>Cảm ơn bạn đã sử dụng Copy Icons. Chúng tôi cam kết cải thiện dựa trên phản hồi của bạn.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="home.html" class="logo-on_footer">
+            <img src="images/logo.png" width="80px" alt="Copy Icons logo">
+            <h3 style="margin: 0 0 15px; font-family: 'Sour Gummy', sans-serif;">
+                Copy Icons                
+            </h3>
+        </a>
+        <div class="footer-links">
+            <a href="mailto:van2100@gmail.com" target="_blank">Góp ý & Báo lỗi</a>
+            <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+        </div>
+        <p>
+            © 2025 copyicons.click Đây là một dự án cá nhân.
+        </p>
+        <p>
+            Trang web này không liên kết chính thức với Font Awesome. Tất cả biểu tượng là tài sản của chủ sở hữu. Bạn có thể đọc kỹ hơn về chúng tôi <a href="about.html" style="font-weight: 700; color: inherit; background-color: #ffd803; padding: 3px; border-radius: 3px;">Tại Đây</a>
+        </p>
+    </footer>
+
+    <button id='scrollToTopBottom'>
+        <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 6V18M12 6L7 11M12 6L17 11" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <script>
+        // Script chung cho header, footer, scroll button (tương tự home.html)
+        const scrollToTopBtn = document.getElementById('scrollToTopBottom');
+        
+        window.addEventListener("scroll", function(){
+            if(window.pageYOffset > 200){
+                scrollToTopBtn.classList.add("active");
+            } else {
+                scrollToTopBtn.classList.remove("active");
+            }
+        });
+
+        scrollToTopBtn.addEventListener("click", function(){
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('show');
+            
+            const icon = menuButton.querySelector('i');
+            if (mobileMenu.classList.contains('show')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+                menuButton.setAttribute('aria-label', 'Đóng menu');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+                menuButton.setAttribute('aria-label', 'Mở menu');
+            }
+        });
+    </script>
+</body>
+</html>

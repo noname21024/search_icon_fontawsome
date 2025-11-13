@@ -1,0 +1,3801 @@
+@font-face {
+  font-family: 'batch3';
+  src:  url('fonts/batch3.eot?4sziq0');
+  src:  url('fonts/batch3.eot?4sziq0#iefix') format('embedded-opentype'),
+    url('fonts/batch3.ttf?4sziq0') format('truetype'),
+    url('fonts/batch3.woff?4sziq0') format('woff'),
+    url('fonts/batch3.svg?4sziq0#batch3') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="sicon-"], [class*=" sicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'batch3' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sicon-p5dotjs:before {
+  content: "\f141";
+}
+.sicon-packagist:before {
+  content: "\f142";
+}
+.sicon-packer:before {
+  content: "\f143";
+}
+.sicon-packt:before {
+  content: "\f144";
+}
+.sicon-paddle:before {
+  content: "\f145";
+}
+.sicon-paddlepaddle:before {
+  content: "\f146";
+}
+.sicon-paddypower:before {
+  content: "\f147";
+}
+.sicon-padlet:before {
+  content: "\f148";
+}
+.sicon-pagekit:before {
+  content: "\f149";
+}
+.sicon-pagerduty:before {
+  content: "\f14a";
+}
+.sicon-pagespeedinsights:before {
+  content: "\f14b";
+}
+.sicon-pagseguro:before {
+  content: "\f14c";
+}
+.sicon-palantir:before {
+  content: "\f14d";
+}
+.sicon-paloaltonetworks:before {
+  content: "\f14e";
+}
+.sicon-paloaltosoftware:before {
+  content: "\f14f";
+}
+.sicon-panasonic:before {
+  content: "\f150";
+}
+.sicon-pandas:before {
+  content: "\f151";
+}
+.sicon-pandora:before {
+  content: "\f152";
+}
+.sicon-pantheon:before {
+  content: "\f153";
+}
+.sicon-paperlessngx:before {
+  content: "\f154";
+}
+.sicon-paperspace:before {
+  content: "\f155";
+}
+.sicon-paperswithcode:before {
+  content: "\f156";
+}
+.sicon-paradoxinteractive:before {
+  content: "\f157";
+}
+.sicon-paramountplus:before {
+  content: "\f158";
+}
+.sicon-paritysubstrate:before {
+  content: "\f159";
+}
+.sicon-parrotsecurity:before {
+  content: "\f15a";
+}
+.sicon-parsedotly:before {
+  content: "\f15b";
+}
+.sicon-passport:before {
+  content: "\f15c";
+}
+.sicon-pastebin:before {
+  content: "\f15d";
+}
+.sicon-patreon:before {
+  content: "\f15e";
+}
+.sicon-payback:before {
+  content: "\f15f";
+}
+.sicon-paychex:before {
+  content: "\f160";
+}
+.sicon-payhip:before {
+  content: "\f161";
+}
+.sicon-payloadcms:before {
+  content: "\f162";
+}
+.sicon-payoneer:before {
+  content: "\f163";
+}
+.sicon-paypal:before {
+  content: "\f164";
+}
+.sicon-paysafe:before {
+  content: "\f165";
+}
+.sicon-paytm:before {
+  content: "\f166";
+}
+.sicon-pcgamingwiki:before {
+  content: "\f167";
+}
+.sicon-pdm:before {
+  content: "\f168";
+}
+.sicon-pdq:before {
+  content: "\f169";
+}
+.sicon-peakdesign:before {
+  content: "\f16a";
+}
+.sicon-pearson:before {
+  content: "\f16b";
+}
+.sicon-peerlist:before {
+  content: "\f16c";
+}
+.sicon-peertube:before {
+  content: "\f16d";
+}
+.sicon-pegasusairlines:before {
+  content: "\f16e";
+}
+.sicon-pelican:before {
+  content: "\f16f";
+}
+.sicon-peloton:before {
+  content: "\f170";
+}
+.sicon-penny:before {
+  content: "\f171";
+}
+.sicon-penpot:before {
+  content: "\f172";
+}
+.sicon-percy:before {
+  content: "\f173";
+}
+.sicon-perforce:before {
+  content: "\f174";
+}
+.sicon-perl:before {
+  content: "\f175";
+}
+.sicon-perplexity:before {
+  content: "\f176";
+}
+.sicon-persistent:before {
+  content: "\f177";
+}
+.sicon-personio:before {
+  content: "\f178";
+}
+.sicon-petsathome:before {
+  content: "\f179";
+}
+.sicon-peugeot:before {
+  content: "\f17a";
+}
+.sicon-pexels:before {
+  content: "\f17b";
+}
+.sicon-pfsense:before {
+  content: "\f17c";
+}
+.sicon-piaggiogroup:before {
+  content: "\f17d";
+}
+.sicon-piapro:before {
+  content: "\f17e";
+}
+.sicon-picardsurgeles:before {
+  content: "\f17f";
+}
+.sicon-picartodottv:before {
+  content: "\f180";
+}
+.sicon-picnic:before {
+  content: "\f181";
+}
+.sicon-picpay:before {
+  content: "\f182";
+}
+.sicon-picrew:before {
+  content: "\f183";
+}
+.sicon-picsart:before {
+  content: "\f184";
+}
+.sicon-picxy:before {
+  content: "\f185";
+}
+.sicon-pihole:before {
+  content: "\f186";
+}
+.sicon-pimcore:before {
+  content: "\f187";
+}
+.sicon-pinboard:before {
+  content: "\f188";
+}
+.sicon-pinescript:before {
+  content: "\f189";
+}
+.sicon-pinetwork:before {
+  content: "\f18a";
+}
+.sicon-pinia:before {
+  content: "\f18b";
+}
+.sicon-pino:before {
+  content: "\f18c";
+}
+.sicon-pinterest:before {
+  content: "\f18d";
+}
+.sicon-pingdom:before {
+  content: "\f18e";
+}
+.sicon-pioneerdj:before {
+  content: "\f18f";
+}
+.sicon-piped:before {
+  content: "\f190";
+}
+.sicon-pipx:before {
+  content: "\f191";
+}
+.sicon-pivotaltracker:before {
+  content: "\f192";
+}
+.sicon-piwigo:before {
+  content: "\f193";
+}
+.sicon-pix:before {
+  content: "\f194";
+}
+.sicon-pixabay:before {
+  content: "\f195";
+}
+.sicon-pixelfed:before {
+  content: "\f196";
+}
+.sicon-pixiv:before {
+  content: "\f197";
+}
+.sicon-pixlr:before {
+  content: "\f198";
+}
+.sicon-pkgsrc:before {
+  content: "\f199";
+}
+.sicon-planet:before {
+  content: "\f19a";
+}
+.sicon-planetscale:before {
+  content: "\f19b";
+}
+.sicon-plangrid:before {
+  content: "\f19c";
+}
+.sicon-platformdotsh:before {
+  content: "\f19d";
+}
+.sicon-platformio:before {
+  content: "\f19e";
+}
+.sicon-platzi:before {
+  content: "\f19f";
+}
+.sicon-plausibleanalytics:before {
+  content: "\f1a0";
+}
+.sicon-playcanvas:before {
+  content: "\f1a1";
+}
+.sicon-playerdotme:before {
+  content: "\f1a2";
+}
+.sicon-playerfm:before {
+  content: "\f1a3";
+}
+.sicon-playstation:before {
+  content: "\f1a4";
+}
+.sicon-playstation2:before {
+  content: "\f1a5";
+}
+.sicon-playstation3:before {
+  content: "\f1a6";
+}
+.sicon-playstation4:before {
+  content: "\f1a7";
+}
+.sicon-playstation5:before {
+  content: "\f1a8";
+}
+.sicon-playstationportable:before {
+  content: "\f1a9";
+}
+.sicon-playstationvita:before {
+  content: "\f1aa";
+}
+.sicon-pleroma:before {
+  content: "\f1ab";
+}
+.sicon-plesk:before {
+  content: "\f1ac";
+}
+.sicon-plex:before {
+  content: "\f1ad";
+}
+.sicon-plotly:before {
+  content: "\f1ae";
+}
+.sicon-plume:before {
+  content: "\f1af";
+}
+.sicon-pluralsight:before {
+  content: "\f1b0";
+}
+.sicon-plurk:before {
+  content: "\f1b1";
+}
+.sicon-pm2:before {
+  content: "\f1b2";
+}
+.sicon-pnpm:before {
+  content: "\f1b3";
+}
+.sicon-pocket:before {
+  content: "\f1b4";
+}
+.sicon-pocketbase:before {
+  content: "\f1b5";
+}
+.sicon-pocketcasts:before {
+  content: "\f1b6";
+}
+.sicon-podcastaddict:before {
+  content: "\f1b7";
+}
+.sicon-podcastindex:before {
+  content: "\f1b8";
+}
+.sicon-podman:before {
+  content: "\f1b9";
+}
+.sicon-poe:before {
+  content: "\f1ba";
+}
+.sicon-poetry:before {
+  content: "\f1bb";
+}
+.sicon-polars:before {
+  content: "\f1bc";
+}
+.sicon-polestar:before {
+  content: "\f1bd";
+}
+.sicon-polkadot:before {
+  content: "\f1be";
+}
+.sicon-poly:before {
+  content: "\f1bf";
+}
+.sicon-polygon:before {
+  content: "\f1c0";
+}
+.sicon-polymerproject:before {
+  content: "\f1c1";
+}
+.sicon-polywork:before {
+  content: "\f1c2";
+}
+.sicon-pond5:before {
+  content: "\f1c3";
+}
+.sicon-popos:before {
+  content: "\f1c4";
+}
+.sicon-porkbun:before {
+  content: "\f1c5";
+}
+.sicon-porsche:before {
+  content: "\f1c6";
+}
+.sicon-portableappsdotcom:before {
+  content: "\f1c7";
+}
+.sicon-portainer:before {
+  content: "\f1c8";
+}
+.sicon-portswigger:before {
+  content: "\f1c9";
+}
+.sicon-posit:before {
+  content: "\f1ca";
+}
+.sicon-postcss:before {
+  content: "\f1cb";
+}
+.sicon-postgresql:before {
+  content: "\f1cc";
+}
+.sicon-postman:before {
+  content: "\f1cd";
+}
+.sicon-postmates:before {
+  content: "\f1ce";
+}
+.sicon-posthog:before {
+  content: "\f1cf";
+}
+.sicon-powers:before {
+  content: "\f1d0";
+}
+.sicon-prdotco:before {
+  content: "\f1d1";
+}
+.sicon-preact:before {
+  content: "\f1d2";
+}
+.sicon-precommit:before {
+  content: "\f1d3";
+}
+.sicon-prefect:before {
+  content: "\f1d4";
+}
+.sicon-premid:before {
+  content: "\f1d5";
+}
+.sicon-premierleague:before {
+  content: "\f1d6";
+}
+.sicon-prepbytes:before {
+  content: "\f1d7";
+}
+.sicon-prestashop:before {
+  content: "\f1d8";
+}
+.sicon-presto:before {
+  content: "\f1d9";
+}
+.sicon-prettier:before {
+  content: "\f1da";
+}
+.sicon-pretzel:before {
+  content: "\f1db";
+}
+.sicon-prevention:before {
+  content: "\f1dc";
+}
+.sicon-prezi:before {
+  content: "\f1dd";
+}
+.sicon-primefaces:before {
+  content: "\f1de";
+}
+.sicon-primeng:before {
+  content: "\f1df";
+}
+.sicon-primereact:before {
+  content: "\f1e0";
+}
+.sicon-primevue:before {
+  content: "\f1e1";
+}
+.sicon-printables:before {
+  content: "\f1e2";
+}
+.sicon-prisma:before {
+  content: "\f1e3";
+}
+.sicon-prismic:before {
+  content: "\f1e4";
+}
+.sicon-privatedivision:before {
+  content: "\f1e5";
+}
+.sicon-privateinternetaccess:before {
+  content: "\f1e6";
+}
+.sicon-probot:before {
+  content: "\f1e7";
+}
+.sicon-processingfoundation:before {
+  content: "\f1e8";
+}
+.sicon-processon:before {
+  content: "\f1e9";
+}
+.sicon-processwire:before {
+  content: "\f1ea";
+}
+.sicon-producthunt:before {
+  content: "\f1eb";
+}
+.sicon-progate:before {
+  content: "\f1ec";
+}
+.sicon-progress:before {
+  content: "\f1ed";
+}
+.sicon-prometheus:before {
+  content: "\f1ee";
+}
+.sicon-pronounsdotpage:before {
+  content: "\f1ef";
+}
+.sicon-prosieben:before {
+  content: "\f1f0";
+}
+.sicon-proteus:before {
+  content: "\f1f1";
+}
+.sicon-protocolsdotio:before {
+  content: "\f1f2";
+}
+.sicon-protodotio:before {
+  content: "\f1f3";
+}
+.sicon-proton:before {
+  content: "\f1f4";
+}
+.sicon-protoncalendar:before {
+  content: "\f1f5";
+}
+.sicon-protondb:before {
+  content: "\f1f6";
+}
+.sicon-protondrive:before {
+  content: "\f1f7";
+}
+.sicon-protonmail:before {
+  content: "\f1f8";
+}
+.sicon-protonvpn:before {
+  content: "\f1f9";
+}
+.sicon-protools:before {
+  content: "\f1fa";
+}
+.sicon-protractor:before {
+  content: "\f1fb";
+}
+.sicon-proxmox:before {
+  content: "\f1fc";
+}
+.sicon-pterodactyl:before {
+  content: "\f1fd";
+}
+.sicon-pubg:before {
+  content: "\f1fe";
+}
+.sicon-publons:before {
+  content: "\f1ff";
+}
+.sicon-pubmed:before {
+  content: "\f200";
+}
+.sicon-pug:before {
+  content: "\f201";
+}
+.sicon-pulumi:before {
+  content: "\f202";
+}
+.sicon-puma:before {
+  content: "\f203";
+}
+.sicon-puppet:before {
+  content: "\f204";
+}
+.sicon-puppeteer:before {
+  content: "\f205";
+}
+.sicon-purescript:before {
+  content: "\f206";
+}
+.sicon-purgecss:before {
+  content: "\f207";
+}
+.sicon-purism:before {
+  content: "\f208";
+}
+.sicon-pushbullet:before {
+  content: "\f209";
+}
+.sicon-pusher:before {
+  content: "\f20a";
+}
+.sicon-pwa:before {
+  content: "\f20b";
+}
+.sicon-pycqa:before {
+  content: "\f20c";
+}
+.sicon-pycharm:before {
+  content: "\f20d";
+}
+.sicon-pydantic:before {
+  content: "\f20e";
+}
+.sicon-pyg:before {
+  content: "\f20f";
+}
+.sicon-pypi:before {
+  content: "\f210";
+}
+.sicon-pypy:before {
+  content: "\f211";
+}
+.sicon-pyscaffold:before {
+  content: "\f212";
+}
+.sicon-pysyft:before {
+  content: "\f213";
+}
+.sicon-pytest:before {
+  content: "\f214";
+}
+.sicon-pytorch:before {
+  content: "\f215";
+}
+.sicon-python:before {
+  content: "\f216";
+}
+.sicon-pythonanywhere:before {
+  content: "\f217";
+}
+.sicon-pyup:before {
+  content: "\f218";
+}
+.sicon-phabricator:before {
+  content: "\f219";
+}
+.sicon-philipshue:before {
+  content: "\f21a";
+}
+.sicon-phoenixframework:before {
+  content: "\f21b";
+}
+.sicon-phonepe:before {
+  content: "\f21c";
+}
+.sicon-phosphoricons:before {
+  content: "\f21d";
+}
+.sicon-photobucket:before {
+  content: "\f21e";
+}
+.sicon-photocrowd:before {
+  content: "\f21f";
+}
+.sicon-photon:before {
+  content: "\f220";
+}
+.sicon-photopea:before {
+  content: "\f221";
+}
+.sicon-php:before {
+  content: "\f222";
+}
+.sicon-phpbb:before {
+  content: "\f223";
+}
+.sicon-phpmyadmin:before {
+  content: "\f224";
+}
+.sicon-phpstorm:before {
+  content: "\f225";
+}
+.sicon-qantas:before {
+  content: "\f226";
+}
+.sicon-qase:before {
+  content: "\f227";
+}
+.sicon-qatarairways:before {
+  content: "\f228";
+}
+.sicon-qbittorrent:before {
+  content: "\f229";
+}
+.sicon-qemu:before {
+  content: "\f22a";
+}
+.sicon-qgis:before {
+  content: "\f22b";
+}
+.sicon-qi:before {
+  content: "\f22c";
+}
+.sicon-qiita:before {
+  content: "\f22d";
+}
+.sicon-qiskit:before {
+  content: "\f22e";
+}
+.sicon-qiwi:before {
+  content: "\f22f";
+}
+.sicon-qlik:before {
+  content: "\f230";
+}
+.sicon-qmk:before {
+  content: "\f231";
+}
+.sicon-qnap:before {
+  content: "\f232";
+}
+.sicon-qodo:before {
+  content: "\f233";
+}
+.sicon-qq:before {
+  content: "\f234";
+}
+.sicon-qt:before {
+  content: "\f235";
+}
+.sicon-qwant:before {
+  content: "\f236";
+}
+.sicon-qwik:before {
+  content: "\f237";
+}
+.sicon-qwiklabs:before {
+  content: "\f238";
+}
+.sicon-qzone:before {
+  content: "\f239";
+}
+.sicon-quad9:before {
+  content: "\f23a";
+}
+.sicon-qualcomm:before {
+  content: "\f23b";
+}
+.sicon-qualtrics:before {
+  content: "\f23c";
+}
+.sicon-qualys:before {
+  content: "\f23d";
+}
+.sicon-quantcast:before {
+  content: "\f23e";
+}
+.sicon-quantconnect:before {
+  content: "\f23f";
+}
+.sicon-quarkus:before {
+  content: "\f240";
+}
+.sicon-quarto:before {
+  content: "\f241";
+}
+.sicon-quasar:before {
+  content: "\f242";
+}
+.sicon-qubesos:before {
+  content: "\f243";
+}
+.sicon-quest:before {
+  content: "\f244";
+}
+.sicon-quickbooks:before {
+  content: "\f245";
+}
+.sicon-quicklook:before {
+  content: "\f246";
+}
+.sicon-quicktime:before {
+  content: "\f247";
+}
+.sicon-quicktype:before {
+  content: "\f248";
+}
+.sicon-quip:before {
+  content: "\f249";
+}
+.sicon-quizlet:before {
+  content: "\f24a";
+}
+.sicon-quora:before {
+  content: "\f24b";
+}
+.sicon-r:before {
+  content: "\f24c";
+}
+.sicon-r3:before {
+  content: "\f24d";
+}
+.sicon-rabbitmq:before {
+  content: "\f24e";
+}
+.sicon-racket:before {
+  content: "\f24f";
+}
+.sicon-radar:before {
+  content: "\f250";
+}
+.sicon-radarr:before {
+  content: "\f251";
+}
+.sicon-radiofrance:before {
+  content: "\f252";
+}
+.sicon-radixui:before {
+  content: "\f253";
+}
+.sicon-radstudio:before {
+  content: "\f254";
+}
+.sicon-railway:before {
+  content: "\f255";
+}
+.sicon-rainmeter:before {
+  content: "\f256";
+}
+.sicon-rainyun:before {
+  content: "\f257";
+}
+.sicon-rakuten:before {
+  content: "\f258";
+}
+.sicon-rakutenkobo:before {
+  content: "\f259";
+}
+.sicon-ram:before {
+  content: "\f25a";
+}
+.sicon-rancher:before {
+  content: "\f25b";
+}
+.sicon-rapid:before {
+  content: "\f25c";
+}
+.sicon-rarible:before {
+  content: "\f25d";
+}
+.sicon-rasa:before {
+  content: "\f25e";
+}
+.sicon-raspberrypi:before {
+  content: "\f25f";
+}
+.sicon-ratatui:before {
+  content: "\f260";
+}
+.sicon-ravelry:before {
+  content: "\f261";
+}
+.sicon-ray:before {
+  content: "\f262";
+}
+.sicon-raycast:before {
+  content: "\f263";
+}
+.sicon-raylib:before {
+  content: "\f264";
+}
+.sicon-razer:before {
+  content: "\f265";
+}
+.sicon-razorpay:before {
+  content: "\f266";
+}
+.sicon-rclone:before {
+  content: "\f267";
+}
+.sicon-react:before {
+  content: "\f268";
+}
+.sicon-reactbootstrap:before {
+  content: "\f269";
+}
+.sicon-reactiveresume:before {
+  content: "\f26a";
+}
+.sicon-reactivex:before {
+  content: "\f26b";
+}
+.sicon-reactos:before {
+  content: "\f26c";
+}
+.sicon-reactquery:before {
+  content: "\f26d";
+}
+.sicon-reacttable:before {
+  content: "\f26e";
+}
+.sicon-reacthookform:before {
+  content: "\f26f";
+}
+.sicon-reactrouter:before {
+  content: "\f270";
+}
+.sicon-readdotcv:before {
+  content: "\f271";
+}
+.sicon-readme:before {
+  content: "\f272";
+}
+.sicon-readthedocs:before {
+  content: "\f273";
+}
+.sicon-reason:before {
+  content: "\f274";
+}
+.sicon-reasonstudios:before {
+  content: "\f275";
+}
+.sicon-recoil:before {
+  content: "\f276";
+}
+.sicon-red:before {
+  content: "\f277";
+}
+.sicon-redash:before {
+  content: "\f278";
+}
+.sicon-redbubble:before {
+  content: "\f279";
+}
+.sicon-redbull:before {
+  content: "\f27a";
+}
+.sicon-redcandlegames:before {
+  content: "\f27b";
+}
+.sicon-reddit:before {
+  content: "\f27c";
+}
+.sicon-redhat:before {
+  content: "\f27d";
+}
+.sicon-redhatopenshift:before {
+  content: "\f27e";
+}
+.sicon-redis:before {
+  content: "\f27f";
+}
+.sicon-redmine:before {
+  content: "\f280";
+}
+.sicon-redox:before {
+  content: "\f281";
+}
+.sicon-redragon:before {
+  content: "\f282";
+}
+.sicon-redsys:before {
+  content: "\f283";
+}
+.sicon-redux:before {
+  content: "\f284";
+}
+.sicon-reduxsaga:before {
+  content: "\f285";
+}
+.sicon-redwoodjs:before {
+  content: "\f286";
+}
+.sicon-reebok:before {
+  content: "\f287";
+}
+.sicon-refine:before {
+  content: "\f288";
+}
+.sicon-refinedgithub:before {
+  content: "\f289";
+}
+.sicon-relay:before {
+  content: "\f28a";
+}
+.sicon-relianceindustrieslimited:before {
+  content: "\f28b";
+}
+.sicon-remark:before {
+  content: "\f28c";
+}
+.sicon-remedyentertainment:before {
+  content: "\f28d";
+}
+.sicon-remix:before {
+  content: "\f28e";
+}
+.sicon-removedotbg:before {
+  content: "\f28f";
+}
+.sicon-renault:before {
+  content: "\f290";
+}
+.sicon-render:before {
+  content: "\f291";
+}
+.sicon-renovate:before {
+  content: "\f292";
+}
+.sicon-renpy:before {
+  content: "\f293";
+}
+.sicon-renren:before {
+  content: "\f294";
+}
+.sicon-replicate:before {
+  content: "\f295";
+}
+.sicon-replit:before {
+  content: "\f296";
+}
+.sicon-republicofgamers:before {
+  content: "\f297";
+}
+.sicon-rescript:before {
+  content: "\f298";
+}
+.sicon-rescuetime:before {
+  content: "\f299";
+}
+.sicon-researchgate:before {
+  content: "\f29a";
+}
+.sicon-resend:before {
+  content: "\f29b";
+}
+.sicon-resharper:before {
+  content: "\f29c";
+}
+.sicon-resurrectionremixos:before {
+  content: "\f29d";
+}
+.sicon-retool:before {
+  content: "\f29e";
+}
+.sicon-retroarch:before {
+  content: "\f29f";
+}
+.sicon-retropie:before {
+  content: "\f2a0";
+}
+.sicon-revanced:before {
+  content: "\f2a1";
+}
+.sicon-revealdotjs:before {
+  content: "\f2a2";
+}
+.sicon-revenuecat:before {
+  content: "\f2a3";
+}
+.sicon-reverbnation:before {
+  content: "\f2a4";
+}
+.sicon-revoltdotchat:before {
+  content: "\f2a5";
+}
+.sicon-revolut:before {
+  content: "\f2a6";
+}
+.sicon-rewe:before {
+  content: "\f2a7";
+}
+.sicon-rezgo:before {
+  content: "\f2a8";
+}
+.sicon-rhinoceros:before {
+  content: "\f2a9";
+}
+.sicon-rich:before {
+  content: "\f2aa";
+}
+.sicon-rider:before {
+  content: "\f2ab";
+}
+.sicon-rimacautomobili:before {
+  content: "\f2ac";
+}
+.sicon-rime:before {
+  content: "\f2ad";
+}
+.sicon-ring:before {
+  content: "\f2ae";
+}
+.sicon-riotgames:before {
+  content: "\f2af";
+}
+.sicon-ripple:before {
+  content: "\f2b0";
+}
+.sicon-riscv:before {
+  content: "\f2b1";
+}
+.sicon-riseup:before {
+  content: "\f2b2";
+}
+.sicon-ritzcarlton:before {
+  content: "\f2b3";
+}
+.sicon-rive:before {
+  content: "\f2b4";
+}
+.sicon-roadmapdotsh:before {
+  content: "\f2b5";
+}
+.sicon-roamresearch:before {
+  content: "\f2b6";
+}
+.sicon-robinhood:before {
+  content: "\f2b7";
+}
+.sicon-roblox:before {
+  content: "\f2b8";
+}
+.sicon-robloxstudio:before {
+  content: "\f2b9";
+}
+.sicon-roboflow:before {
+  content: "\f2ba";
+}
+.sicon-robotframework:before {
+  content: "\f2bb";
+}
+.sicon-rocket:before {
+  content: "\f2bc";
+}
+.sicon-rocketdotchat:before {
+  content: "\f2bd";
+}
+.sicon-rocksdb:before {
+  content: "\f2be";
+}
+.sicon-rockstargames:before {
+  content: "\f2bf";
+}
+.sicon-rockwellautomation:before {
+  content: "\f2c0";
+}
+.sicon-rockylinux:before {
+  content: "\f2c1";
+}
+.sicon-roku:before {
+  content: "\f2c2";
+}
+.sicon-roll20:before {
+  content: "\f2c3";
+}
+.sicon-rollbar:before {
+  content: "\f2c4";
+}
+.sicon-rolldown:before {
+  content: "\f2c5";
+}
+.sicon-rollsroyce:before {
+  content: "\f2c6";
+}
+.sicon-rollupdotjs:before {
+  content: "\f2c7";
+}
+.sicon-rook:before {
+  content: "\f2c8";
+}
+.sicon-roon:before {
+  content: "\f2c9";
+}
+.sicon-rootme:before {
+  content: "\f2ca";
+}
+.sicon-roots:before {
+  content: "\f2cb";
+}
+.sicon-rootsbedrock:before {
+  content: "\f2cc";
+}
+.sicon-rootssage:before {
+  content: "\f2cd";
+}
+.sicon-ros:before {
+  content: "\f2ce";
+}
+.sicon-rossmann:before {
+  content: "\f2cf";
+}
+.sicon-rotaryinternational:before {
+  content: "\f2d0";
+}
+.sicon-rottentomatoes:before {
+  content: "\f2d1";
+}
+.sicon-roundcube:before {
+  content: "\f2d2";
+}
+.sicon-rsocket:before {
+  content: "\f2d3";
+}
+.sicon-rss:before {
+  content: "\f2d4";
+}
+.sicon-rstudioide:before {
+  content: "\f2d5";
+}
+.sicon-rte:before {
+  content: "\f2d6";
+}
+.sicon-rtl:before {
+  content: "\f2d7";
+}
+.sicon-rtlzwei:before {
+  content: "\f2d8";
+}
+.sicon-rtm:before {
+  content: "\f2d9";
+}
+.sicon-rubocop:before {
+  content: "\f2da";
+}
+.sicon-ruby:before {
+  content: "\f2db";
+}
+.sicon-rubygems:before {
+  content: "\f2dc";
+}
+.sicon-rubymine:before {
+  content: "\f2dd";
+}
+.sicon-rubyonrails:before {
+  content: "\f2de";
+}
+.sicon-rubysinatra:before {
+  content: "\f2df";
+}
+.sicon-ruff:before {
+  content: "\f2e0";
+}
+.sicon-rumahweb:before {
+  content: "\f2e1";
+}
+.sicon-rumble:before {
+  content: "\f2e2";
+}
+.sicon-rundeck:before {
+  content: "\f2e3";
+}
+.sicon-runkeeper:before {
+  content: "\f2e4";
+}
+.sicon-runkit:before {
+  content: "\f2e5";
+}
+.sicon-runrundotit:before {
+  content: "\f2e6";
+}
+.sicon-rust:before {
+  content: "\f2e7";
+}
+.sicon-rustdesk:before {
+  content: "\f2e8";
+}
+.sicon-rxdb:before {
+  content: "\f2e9";
+}
+.sicon-ryanair:before {
+  content: "\f2ea";
+}
+.sicon-rye:before {
+  content: "\f2eb";
+}
+.sicon-s7airlines:before {
+  content: "\f2ec";
+}
+.sicon-sabanci:before {
+  content: "\f2ed";
+}
+.sicon-safari:before {
+  content: "\f2ee";
+}
+.sicon-sage:before {
+  content: "\f2ef";
+}
+.sicon-sagemath:before {
+  content: "\f2f0";
+}
+.sicon-sahibinden:before {
+  content: "\f2f1";
+}
+.sicon-sailfishos:before {
+  content: "\f2f2";
+}
+.sicon-sailsdotjs:before {
+  content: "\f2f3";
+}
+.sicon-salesforce:before {
+  content: "\f2f4";
+}
+.sicon-salla:before {
+  content: "\f2f5";
+}
+.sicon-saltproject:before {
+  content: "\f2f6";
+}
+.sicon-samsclub:before {
+  content: "\f2f7";
+}
+.sicon-samsung:before {
+  content: "\f2f8";
+}
+.sicon-samsungpay:before {
+  content: "\f2f9";
+}
+.sicon-sanfranciscomunicipalrailway:before {
+  content: "\f2fa";
+}
+.sicon-sanic:before {
+  content: "\f2fb";
+}
+.sicon-sanity:before {
+  content: "\f2fc";
+}
+.sicon-saopaulometro:before {
+  content: "\f2fd";
+}
+.sicon-sap:before {
+  content: "\f2fe";
+}
+.sicon-sartorius:before {
+  content: "\f2ff";
+}
+.sicon-sass:before {
+  content: "\f300";
+}
+.sicon-sat1:before {
+  content: "\f301";
+}
+.sicon-satellite:before {
+  content: "\f302";
+}
+.sicon-saturn:before {
+  content: "\f303";
+}
+.sicon-saucelabs:before {
+  content: "\f304";
+}
+.sicon-saudia:before {
+  content: "\f305";
+}
+.sicon-scala:before {
+  content: "\f306";
+}
+.sicon-scalar:before {
+  content: "\f307";
+}
+.sicon-scaleway:before {
+  content: "\f308";
+}
+.sicon-scania:before {
+  content: "\f309";
+}
+.sicon-scikitlearn:before {
+  content: "\f30a";
+}
+.sicon-scilab:before {
+  content: "\f30b";
+}
+.sicon-scipy:before {
+  content: "\f30c";
+}
+.sicon-scopus:before {
+  content: "\f30d";
+}
+.sicon-scpfoundation:before {
+  content: "\f30e";
+}
+.sicon-scrapbox:before {
+  content: "\f30f";
+}
+.sicon-scrapy:before {
+  content: "\f310";
+}
+.sicon-scratch:before {
+  content: "\f311";
+}
+.sicon-screencastify:before {
+  content: "\f312";
+}
+.sicon-scribd:before {
+  content: "\f313";
+}
+.sicon-scrimba:before {
+  content: "\f314";
+}
+.sicon-scrollreveal:before {
+  content: "\f315";
+}
+.sicon-scrumalliance:before {
+  content: "\f316";
+}
+.sicon-scrutinizerci:before {
+  content: "\f317";
+}
+.sicon-scylladb:before {
+  content: "\f318";
+}
+.sicon-schneiderelectric:before {
+  content: "\f319";
+}
+.sicon-seafile:before {
+  content: "\f31a";
+}
+.sicon-seagate:before {
+  content: "\f31b";
+}
+.sicon-searxng:before {
+  content: "\f31c";
+}
+.sicon-seat:before {
+  content: "\f31d";
+}
+.sicon-seatgeek:before {
+  content: "\f31e";
+}
+.sicon-securityscorecard:before {
+  content: "\f31f";
+}
+.sicon-sefaria:before {
+  content: "\f320";
+}
+.sicon-sega:before {
+  content: "\f321";
+}
+.sicon-selenium:before {
+  content: "\f322";
+}
+.sicon-sellfy:before {
+  content: "\f323";
+}
+.sicon-semanticrelease:before {
+  content: "\f324";
+}
+.sicon-semanticscholar:before {
+  content: "\f325";
+}
+.sicon-semanticui:before {
+  content: "\f326";
+}
+.sicon-semanticuireact:before {
+  content: "\f327";
+}
+.sicon-semanticweb:before {
+  content: "\f328";
+}
+.sicon-semaphoreci:before {
+  content: "\f329";
+}
+.sicon-semrush:before {
+  content: "\f32a";
+}
+.sicon-semver:before {
+  content: "\f32b";
+}
+.sicon-sencha:before {
+  content: "\f32c";
+}
+.sicon-sendgrid:before {
+  content: "\f32d";
+}
+.sicon-sennheiser:before {
+  content: "\f32e";
+}
+.sicon-sensu:before {
+  content: "\f32f";
+}
+.sicon-sentry:before {
+  content: "\f330";
+}
+.sicon-sepa:before {
+  content: "\f331";
+}
+.sicon-sequelize:before {
+  content: "\f332";
+}
+.sicon-servbay:before {
+  content: "\f333";
+}
+.sicon-serverfault:before {
+  content: "\f334";
+}
+.sicon-serverless:before {
+  content: "\f335";
+}
+.sicon-session:before {
+  content: "\f336";
+}
+.sicon-sessionize:before {
+  content: "\f337";
+}
+.sicon-setapp:before {
+  content: "\f338";
+}
+.sicon-sfml:before {
+  content: "\f339";
+}
+.sicon-shadcnui:before {
+  content: "\f33a";
+}
+.sicon-shadow:before {
+  content: "\f33b";
+}
+.sicon-shanghaimetro:before {
+  content: "\f33c";
+}
+.sicon-sharex:before {
+  content: "\f33d";
+}
+.sicon-sharp:before {
+  content: "\f33e";
+}
+.sicon-shazam:before {
+  content: "\f33f";
+}
+.sicon-shell:before {
+  content: "\f340";
+}
+.sicon-shelly:before {
+  content: "\f341";
+}
+.sicon-shenzhenmetro:before {
+  content: "\f342";
+}
+.sicon-shieldsdotio:before {
+  content: "\f343";
+}
+.sicon-shikimori:before {
+  content: "\f344";
+}
+.sicon-shopee:before {
+  content: "\f345";
+}
+.sicon-shopify:before {
+  content: "\f346";
+}
+.sicon-shopware:before {
+  content: "\f347";
+}
+.sicon-shortcut:before {
+  content: "\f348";
+}
+.sicon-showpad:before {
+  content: "\f349";
+}
+.sicon-showtime:before {
+  content: "\f34a";
+}
+.sicon-showwcase:before {
+  content: "\f34b";
+}
+.sicon-shutterstock:before {
+  content: "\f34c";
+}
+.sicon-sidekiq:before {
+  content: "\f34d";
+}
+.sicon-sidequest:before {
+  content: "\f34e";
+}
+.sicon-siemens:before {
+  content: "\f34f";
+}
+.sicon-sifive:before {
+  content: "\f350";
+}
+.sicon-signal:before {
+  content: "\f351";
+}
+.sicon-silverairways:before {
+  content: "\f352";
+}
+.sicon-similarweb:before {
+  content: "\f353";
+}
+.sicon-simkl:before {
+  content: "\f354";
+}
+.sicon-simpleanalytics:before {
+  content: "\f355";
+}
+.sicon-simpleicons:before {
+  content: "\f356";
+}
+.sicon-simplelocalize:before {
+  content: "\f357";
+}
+.sicon-simplelogin:before {
+  content: "\f358";
+}
+.sicon-simplenote:before {
+  content: "\f359";
+}
+.sicon-simplex:before {
+  content: "\f35a";
+}
+.sicon-sinaweibo:before {
+  content: "\f35b";
+}
+.sicon-singaporeairlines:before {
+  content: "\f35c";
+}
+.sicon-singlestore:before {
+  content: "\f35d";
+}
+.sicon-sitecore:before {
+  content: "\f35e";
+}
+.sicon-sitepoint:before {
+  content: "\f35f";
+}
+.sicon-siyuan:before {
+  content: "\f360";
+}
+.sicon-skaffold:before {
+  content: "\f361";
+}
+.sicon-skeleton:before {
+  content: "\f362";
+}
+.sicon-sketch:before {
+  content: "\f363";
+}
+.sicon-sketchfab:before {
+  content: "\f364";
+}
+.sicon-sketchup:before {
+  content: "\f365";
+}
+.sicon-skillshare:before {
+  content: "\f366";
+}
+.sicon-skoda:before {
+  content: "\f367";
+}
+.sicon-sky:before {
+  content: "\f368";
+}
+.sicon-skypack:before {
+  content: "\f369";
+}
+.sicon-slack:before {
+  content: "\f36a";
+}
+.sicon-slackware:before {
+  content: "\f36b";
+}
+.sicon-slashdot:before {
+  content: "\f36c";
+}
+.sicon-slickpic:before {
+  content: "\f36d";
+}
+.sicon-slides:before {
+  content: "\f36e";
+}
+.sicon-slideshare:before {
+  content: "\f36f";
+}
+.sicon-slint:before {
+  content: "\f370";
+}
+.sicon-smart:before {
+  content: "\f371";
+}
+.sicon-smartthings:before {
+  content: "\f372";
+}
+.sicon-smashingmagazine:before {
+  content: "\f373";
+}
+.sicon-smoothcomp:before {
+  content: "\f374";
+}
+.sicon-smrt:before {
+  content: "\f375";
+}
+.sicon-smugmug:before {
+  content: "\f376";
+}
+.sicon-snapcraft:before {
+  content: "\f377";
+}
+.sicon-snapchat:before {
+  content: "\f378";
+}
+.sicon-snapdragon:before {
+  content: "\f379";
+}
+.sicon-sncf:before {
+  content: "\f37a";
+}
+.sicon-snort:before {
+  content: "\f37b";
+}
+.sicon-snowflake:before {
+  content: "\f37c";
+}
+.sicon-snowpack:before {
+  content: "\f37d";
+}
+.sicon-snyk:before {
+  content: "\f37e";
+}
+.sicon-socialblade:before {
+  content: "\f37f";
+}
+.sicon-society6:before {
+  content: "\f380";
+}
+.sicon-socket:before {
+  content: "\f381";
+}
+.sicon-socketdotio:before {
+  content: "\f382";
+}
+.sicon-softcatala:before {
+  content: "\f383";
+}
+.sicon-softpedia:before {
+  content: "\f384";
+}
+.sicon-sogou:before {
+  content: "\f385";
+}
+.sicon-solana:before {
+  content: "\f386";
+}
+.sicon-solid:before {
+  content: "\f387";
+}
+.sicon-solidity:before {
+  content: "\f388";
+}
+.sicon-sololearn:before {
+  content: "\f389";
+}
+.sicon-solus:before {
+  content: "\f38a";
+}
+.sicon-sonar:before {
+  content: "\f38b";
+}
+.sicon-sonarqubecloud:before {
+  content: "\f38c";
+}
+.sicon-sonarqubeforide:before {
+  content: "\f38d";
+}
+.sicon-sonarqubeserver:before {
+  content: "\f38e";
+}
+.sicon-sonarr:before {
+  content: "\f38f";
+}
+.sicon-sonatype:before {
+  content: "\f390";
+}
+.sicon-sonicwall:before {
+  content: "\f391";
+}
+.sicon-sonos:before {
+  content: "\f392";
+}
+.sicon-sony:before {
+  content: "\f393";
+}
+.sicon-songkick:before {
+  content: "\f394";
+}
+.sicon-songoda:before {
+  content: "\f395";
+}
+.sicon-soriana:before {
+  content: "\f396";
+}
+.sicon-soundcloud:before {
+  content: "\f397";
+}
+.sicon-soundcharts:before {
+  content: "\f398";
+}
+.sicon-sourceengine:before {
+  content: "\f399";
+}
+.sicon-sourceforge:before {
+  content: "\f39a";
+}
+.sicon-sourcehut:before {
+  content: "\f39b";
+}
+.sicon-sourcetree:before {
+  content: "\f39c";
+}
+.sicon-southwestairlines:before {
+  content: "\f39d";
+}
+.sicon-spacemacs:before {
+  content: "\f39e";
+}
+.sicon-spaceship:before {
+  content: "\f39f";
+}
+.sicon-spacex:before {
+  content: "\f3a0";
+}
+.sicon-spacy:before {
+  content: "\f3a1";
+}
+.sicon-sparkar:before {
+  content: "\f3a2";
+}
+.sicon-sparkasse:before {
+  content: "\f3a3";
+}
+.sicon-sparkfun:before {
+  content: "\f3a4";
+}
+.sicon-sparkpost:before {
+  content: "\f3a5";
+}
+.sicon-spdx:before {
+  content: "\f3a6";
+}
+.sicon-speakerdeck:before {
+  content: "\f3a7";
+}
+.sicon-spectrum:before {
+  content: "\f3a8";
+}
+.sicon-speedtest:before {
+  content: "\f3a9";
+}
+.sicon-speedypage:before {
+  content: "\f3aa";
+}
+.sicon-spigotmc:before {
+  content: "\f3ab";
+}
+.sicon-spine:before {
+  content: "\f3ac";
+}
+.sicon-spinnaker:before {
+  content: "\f3ad";
+}
+.sicon-splunk:before {
+  content: "\f3ae";
+}
+.sicon-spoj:before {
+  content: "\f3af";
+}
+.sicon-spond:before {
+  content: "\f3b0";
+}
+.sicon-spotify:before {
+  content: "\f3b1";
+}
+.sicon-spotlight:before {
+  content: "\f3b2";
+}
+.sicon-spreadshirt:before {
+  content: "\f3b3";
+}
+.sicon-spreaker:before {
+  content: "\f3b4";
+}
+.sicon-spring:before {
+  content: "\f3b5";
+}
+.sicon-spring_creators:before {
+  content: "\f3b6";
+}
+.sicon-springboot:before {
+  content: "\f3b7";
+}
+.sicon-springsecurity:before {
+  content: "\f3b8";
+}
+.sicon-spyderide:before {
+  content: "\f3b9";
+}
+.sicon-sphinx:before {
+  content: "\f3ba";
+}
+.sicon-sqlalchemy:before {
+  content: "\f3bb";
+}
+.sicon-sqlite:before {
+  content: "\f3bc";
+}
+.sicon-square:before {
+  content: "\f3bd";
+}
+.sicon-squareenix:before {
+  content: "\f3be";
+}
+.sicon-squarespace:before {
+  content: "\f3bf";
+}
+.sicon-srgssr:before {
+  content: "\f3c0";
+}
+.sicon-ssrn:before {
+  content: "\f3c1";
+}
+.sicon-sst:before {
+  content: "\f3c2";
+}
+.sicon-stackbit:before {
+  content: "\f3c3";
+}
+.sicon-stackblitz:before {
+  content: "\f3c4";
+}
+.sicon-stackedit:before {
+  content: "\f3c5";
+}
+.sicon-stackexchange:before {
+  content: "\f3c6";
+}
+.sicon-stackoverflow:before {
+  content: "\f3c7";
+}
+.sicon-stackshare:before {
+  content: "\f3c8";
+}
+.sicon-stackhawk:before {
+  content: "\f3c9";
+}
+.sicon-stadia:before {
+  content: "\f3ca";
+}
+.sicon-staffbase:before {
+  content: "\f3cb";
+}
+.sicon-stagetimer:before {
+  content: "\f3cc";
+}
+.sicon-standardjs:before {
+  content: "\f3cd";
+}
+.sicon-standardresume:before {
+  content: "\f3ce";
+}
+.sicon-starbucks:before {
+  content: "\f3cf";
+}
+.sicon-stardock:before {
+  content: "\f3d0";
+}
+.sicon-starlingbank:before {
+  content: "\f3d1";
+}
+.sicon-starship:before {
+  content: "\f3d2";
+}
+.sicon-startdotgg:before {
+  content: "\f3d3";
+}
+.sicon-startpage:before {
+  content: "\f3d4";
+}
+.sicon-startrek:before {
+  content: "\f3d5";
+}
+.sicon-starz:before {
+  content: "\f3d6";
+}
+.sicon-statamic:before {
+  content: "\f3d7";
+}
+.sicon-statista:before {
+  content: "\f3d8";
+}
+.sicon-statuspage:before {
+  content: "\f3d9";
+}
+.sicon-statuspal:before {
+  content: "\f3da";
+}
+.sicon-steam:before {
+  content: "\f3db";
+}
+.sicon-steamdb:before {
+  content: "\f3dc";
+}
+.sicon-steamdeck:before {
+  content: "\f3dd";
+}
+.sicon-steamworks:before {
+  content: "\f3de";
+}
+.sicon-steelseries:before {
+  content: "\f3df";
+}
+.sicon-steem:before {
+  content: "\f3e0";
+}
+.sicon-steemit:before {
+  content: "\f3e1";
+}
+.sicon-steinberg:before {
+  content: "\f3e2";
+}
+.sicon-stellar:before {
+  content: "\f3e3";
+}
+.sicon-stencil:before {
+  content: "\f3e4";
+}
+.sicon-stencyl:before {
+  content: "\f3e5";
+}
+.sicon-stimulus:before {
+  content: "\f3e6";
+}
+.sicon-stmicroelectronics:before {
+  content: "\f3e7";
+}
+.sicon-stockx:before {
+  content: "\f3e8";
+}
+.sicon-stopstalk:before {
+  content: "\f3e9";
+}
+.sicon-storyblok:before {
+  content: "\f3ea";
+}
+.sicon-storybook:before {
+  content: "\f3eb";
+}
+.sicon-stubhub:before {
+  content: "\f3ec";
+}
+.sicon-studio3t:before {
+  content: "\f3ed";
+}
+.sicon-styledcomponents:before {
+  content: "\f3ee";
+}
+.sicon-stylelint:before {
+  content: "\f3ef";
+}
+.sicon-styleshare:before {
+  content: "\f3f0";
+}
+.sicon-stylus:before {
+  content: "\f3f1";
+}
+.sicon-strapi:before {
+  content: "\f3f2";
+}
+.sicon-strava:before {
+  content: "\f3f3";
+}
+.sicon-streamlabs:before {
+  content: "\f3f4";
+}
+.sicon-streamlit:before {
+  content: "\f3f5";
+}
+.sicon-streamrunners:before {
+  content: "\f3f6";
+}
+.sicon-stremio:before {
+  content: "\f3f7";
+}
+.sicon-stripe:before {
+  content: "\f3f8";
+}
+.sicon-strongswan:before {
+  content: "\f3f9";
+}
+.sicon-stryker:before {
+  content: "\f3fa";
+}
+.sicon-subaru:before {
+  content: "\f3fb";
+}
+.sicon-sublimetext:before {
+  content: "\f3fc";
+}
+.sicon-substack:before {
+  content: "\f3fd";
+}
+.sicon-subtitleedit:before {
+  content: "\f3fe";
+}
+.sicon-subversion:before {
+  content: "\f3ff";
+}
+.sicon-suckless:before {
+  content: "\f400";
+}
+.sicon-sui:before {
+  content: "\f401";
+}
+.sicon-suitest:before {
+  content: "\f402";
+}
+.sicon-sumologic:before {
+  content: "\f403";
+}
+.sicon-suno:before {
+  content: "\f404";
+}
+.sicon-sunrise:before {
+  content: "\f405";
+}
+.sicon-supabase:before {
+  content: "\f406";
+}
+.sicon-supercrease:before {
+  content: "\f407";
+}
+.sicon-supermicro:before {
+  content: "\f408";
+}
+.sicon-superuser:before {
+  content: "\f409";
+}
+.sicon-surfshark:before {
+  content: "\f40a";
+}
+.sicon-surrealdb:before {
+  content: "\f40b";
+}
+.sicon-surveymonkey:before {
+  content: "\f40c";
+}
+.sicon-suse:before {
+  content: "\f40d";
+}
+.sicon-suzuki:before {
+  content: "\f40e";
+}
+.sicon-svelte:before {
+  content: "\f40f";
+}
+.sicon-svg:before {
+  content: "\f410";
+}
+.sicon-svgdotjs:before {
+  content: "\f411";
+}
+.sicon-svgo:before {
+  content: "\f412";
+}
+.sicon-svgtrace:before {
+  content: "\f413";
+}
+.sicon-swagger:before {
+  content: "\f414";
+}
+.sicon-swarm:before {
+  content: "\f415";
+}
+.sicon-sway:before {
+  content: "\f416";
+}
+.sicon-swc:before {
+  content: "\f417";
+}
+.sicon-swift:before {
+  content: "\f418";
+}
+.sicon-swiggy:before {
+  content: "\f419";
+}
+.sicon-swiper:before {
+  content: "\f41a";
+}
+.sicon-swisscows:before {
+  content: "\f41b";
+}
+.sicon-swr:before {
+  content: "\f41c";
+}
+.sicon-symantec:before {
+  content: "\f41d";
+}
+.sicon-symbolab:before {
+  content: "\f41e";
+}
+.sicon-symfony:before {
+  content: "\f41f";
+}
+.sicon-sympy:before {
+  content: "\f420";
+}
+.sicon-symphony:before {
+  content: "\f421";
+}
+.sicon-syncthing:before {
+  content: "\f422";
+}
+.sicon-synology:before {
+  content: "\f423";
+}
+.sicon-system76:before {
+  content: "\f424";
+}
+.sicon-tabelog:before {
+  content: "\f425";
+}
+.sicon-tablecheck:before {
+  content: "\f426";
+}
+.sicon-tacobell:before {
+  content: "\f427";
+}
+.sicon-tado:before {
+  content: "\f428";
+}
+.sicon-taichigraphics:before {
+  content: "\f429";
+}
+.sicon-taichilang:before {
+  content: "\f42a";
+}
+.sicon-tails:before {
+  content: "\f42b";
+}
+.sicon-tailscale:before {
+  content: "\f42c";
+}
+.sicon-tailwindcss:before {
+  content: "\f42d";
+}
+.sicon-taipy:before {
+  content: "\f42e";
+}
+.sicon-taketwointeractivesoftware:before {
+  content: "\f42f";
+}
+.sicon-talend:before {
+  content: "\f430";
+}
+.sicon-talenthouse:before {
+  content: "\f431";
+}
+.sicon-talos:before {
+  content: "\f432";
+}
+.sicon-tamiya:before {
+  content: "\f433";
+}
+.sicon-tampermonkey:before {
+  content: "\f434";
+}
+.sicon-taobao:before {
+  content: "\f435";
+}
+.sicon-tapas:before {
+  content: "\f436";
+}
+.sicon-target:before {
+  content: "\f437";
+}
+.sicon-tarom:before {
+  content: "\f438";
+}
+.sicon-task:before {
+  content: "\f439";
+}
+.sicon-tasmota:before {
+  content: "\f43a";
+}
+.sicon-tata:before {
+  content: "\f43b";
+}
+.sicon-tauri:before {
+  content: "\f43c";
+}
+.sicon-taxbuzz:before {
+  content: "\f43d";
+}
+.sicon-tcs:before {
+  content: "\f43e";
+}
+.sicon-teal:before {
+  content: "\f43f";
+}
+.sicon-teamcity:before {
+  content: "\f440";
+}
+.sicon-teamspeak:before {
+  content: "\f441";
+}
+.sicon-teamviewer:before {
+  content: "\f442";
+}
+.sicon-techcrunch:before {
+  content: "\f443";
+}
+.sicon-ted:before {
+  content: "\f444";
+}
+.sicon-teepublic:before {
+  content: "\f445";
+}
+.sicon-teespring:before {
+  content: "\f446";
+}
+.sicon-tekton:before {
+  content: "\f447";
+}
+.sicon-tele5:before {
+  content: "\f448";
+}
+.sicon-telefonica:before {
+  content: "\f449";
+}
+.sicon-telegram:before {
+  content: "\f44a";
+}
+.sicon-telegraph:before {
+  content: "\f44b";
+}
+.sicon-telenor:before {
+  content: "\f44c";
+}
+.sicon-telequebec:before {
+  content: "\f44d";
+}
+.sicon-temporal:before {
+  content: "\f44e";
+}
+.sicon-tensorflow:before {
+  content: "\f44f";
+}
+.sicon-teradata:before {
+  content: "\f450";
+}
+.sicon-teratail:before {
+  content: "\f451";
+}
+.sicon-termius:before {
+  content: "\f452";
+}
+.sicon-terraform:before {
+  content: "\f453";
+}
+.sicon-tesco:before {
+  content: "\f454";
+}
+.sicon-tesla:before {
+  content: "\f455";
+}
+.sicon-testcafe:before {
+  content: "\f456";
+}
+.sicon-testin:before {
+  content: "\f457";
+}
+.sicon-testinglibrary:before {
+  content: "\f458";
+}
+.sicon-testrail:before {
+  content: "\f459";
+}
+.sicon-tether:before {
+  content: "\f45a";
+}
+.sicon-textpattern:before {
+  content: "\f45b";
+}
+.sicon-tga:before {
+  content: "\f45c";
+}
+.sicon-ticketmaster:before {
+  content: "\f45d";
+}
+.sicon-ticktick:before {
+  content: "\f45e";
+}
+.sicon-tidal:before {
+  content: "\f45f";
+}
+.sicon-tiddlywiki:before {
+  content: "\f460";
+}
+.sicon-tide:before {
+  content: "\f461";
+}
+.sicon-tidyverse:before {
+  content: "\f462";
+}
+.sicon-tietoevry:before {
+  content: "\f463";
+}
+.sicon-tiktok:before {
+  content: "\f464";
+}
+.sicon-tildapublishing:before {
+  content: "\f465";
+}
+.sicon-tile:before {
+  content: "\f466";
+}
+.sicon-timescale:before {
+  content: "\f467";
+}
+.sicon-tina:before {
+  content: "\f468";
+}
+.sicon-tinder:before {
+  content: "\f469";
+}
+.sicon-tindie:before {
+  content: "\f46a";
+}
+.sicon-tinkercad:before {
+  content: "\f46b";
+}
+.sicon-tinygrad:before {
+  content: "\f46c";
+}
+.sicon-tinyletter:before {
+  content: "\f46d";
+}
+.sicon-tistory:before {
+  content: "\f46e";
+}
+.sicon-tldraw:before {
+  content: "\f46f";
+}
+.sicon-tmux:before {
+  content: "\f470";
+}
+.sicon-todoist:before {
+  content: "\f471";
+}
+.sicon-toggl:before {
+  content: "\f472";
+}
+.sicon-toggltrack:before {
+  content: "\f473";
+}
+.sicon-tokio:before {
+  content: "\f474";
+}
+.sicon-tokyometro:before {
+  content: "\f475";
+}
+.sicon-toll:before {
+  content: "\f476";
+}
+.sicon-toml:before {
+  content: "\f477";
+}
+.sicon-tomorrowland:before {
+  content: "\f478";
+}
+.sicon-tomtom:before {
+  content: "\f479";
+}
+.sicon-ton:before {
+  content: "\f47a";
+}
+.sicon-topcoder:before {
+  content: "\f47b";
+}
+.sicon-topdotgg:before {
+  content: "\f47c";
+}
+.sicon-toptal:before {
+  content: "\f47d";
+}
+.sicon-torbrowser:before {
+  content: "\f47e";
+}
+.sicon-torizon:before {
+  content: "\f47f";
+}
+.sicon-torproject:before {
+  content: "\f480";
+}
+.sicon-toshiba:before {
+  content: "\f481";
+}
+.sicon-totvs:before {
+  content: "\f482";
+}
+.sicon-tourbox:before {
+  content: "\f483";
+}
+.sicon-tower:before {
+  content: "\f484";
+}
+.sicon-toyota:before {
+  content: "\f485";
+}
+.sicon-tplink:before {
+  content: "\f486";
+}
+.sicon-tqdm:before {
+  content: "\f487";
+}
+.sicon-tsnode:before {
+  content: "\f488";
+}
+.sicon-tubi:before {
+  content: "\f489";
+}
+.sicon-tui:before {
+  content: "\f48a";
+}
+.sicon-tumblr:before {
+  content: "\f48b";
+}
+.sicon-tunein:before {
+  content: "\f48c";
+}
+.sicon-turbo:before {
+  content: "\f48d";
+}
+.sicon-turborepo:before {
+  content: "\f48e";
+}
+.sicon-turbosquid:before {
+  content: "\f48f";
+}
+.sicon-turkishairlines:before {
+  content: "\f490";
+}
+.sicon-turso:before {
+  content: "\f491";
+}
+.sicon-tuta:before {
+  content: "\f492";
+}
+.sicon-tuxedocomputers:before {
+  content: "\f493";
+}
+.sicon-tv4play:before {
+  content: "\f494";
+}
+.sicon-tvtime:before {
+  content: "\f495";
+}
+.sicon-twenty:before {
+  content: "\f496";
+}
+.sicon-twilio:before {
+  content: "\f497";
+}
+.sicon-twinkly:before {
+  content: "\f498";
+}
+.sicon-twinmotion:before {
+  content: "\f499";
+}
+.sicon-twitch:before {
+  content: "\f49a";
+}
+.sicon-typeform:before {
+  content: "\f49b";
+}
+.sicon-typeorm:before {
+  content: "\f49c";
+}
+.sicon-typer:before {
+  content: "\f49d";
+}
+.sicon-typescript:before {
+  content: "\f49e";
+}
+.sicon-typo3:before {
+  content: "\f49f";
+}
+.sicon-typst:before {
+  content: "\f4a0";
+}
+.sicon-thanos:before {
+  content: "\f4a1";
+}
+.sicon-thangs:before {
+  content: "\f4a2";
+}
+.sicon-thealgorithms:before {
+  content: "\f4a3";
+}
+.sicon-theboringcompany:before {
+  content: "\f4a4";
+}
+.sicon-theconversation:before {
+  content: "\f4a5";
+}
+.sicon-thefinals:before {
+  content: "\f4a6";
+}
+.sicon-theguardian:before {
+  content: "\f4a7";
+}
+.sicon-theirishtimes:before {
+  content: "\f4a8";
+}
+.sicon-themighty:before {
+  content: "\f4a9";
+}
+.sicon-themodelsresource:before {
+  content: "\f4aa";
+}
+.sicon-themoviedatabase:before {
+  content: "\f4ab";
+}
+.sicon-thenorthface:before {
+  content: "\f4ac";
+}
+.sicon-theodinproject:before {
+  content: "\f4ad";
+}
+.sicon-theplanetarysociety:before {
+  content: "\f4ae";
+}
+.sicon-theregister:before {
+  content: "\f4af";
+}
+.sicon-thesoundsresource:before {
+  content: "\f4b0";
+}
+.sicon-thespritersresource:before {
+  content: "\f4b1";
+}
+.sicon-thestorygraph:before {
+  content: "\f4b2";
+}
+.sicon-thewashingtonpost:before {
+  content: "\f4b3";
+}
+.sicon-theweatherchannel:before {
+  content: "\f4b4";
+}
+.sicon-thinkpad:before {
+  content: "\f4b5";
+}
+.sicon-thingiverse:before {
+  content: "\f4b6";
+}
+.sicon-thirdweb:before {
+  content: "\f4b7";
+}
+.sicon-threadless:before {
+  content: "\f4b8";
+}
+.sicon-threads:before {
+  content: "\f4b9";
+}
+.sicon-threedotjs:before {
+  content: "\f4ba";
+}
+.sicon-threema:before {
+  content: "\f4bb";
+}
+.sicon-thumbtack:before {
+  content: "\f4bc";
+}
+.sicon-thunderbird:before {
+  content: "\f4bd";
+}
+.sicon-thunderstore:before {
+  content: "\f4be";
+}
+.sicon-thurgauerkantonalbank:before {
+  content: "\f4bf";
+}
+.sicon-thymeleaf:before {
+  content: "\f4c0";
+}
+.sicon-traccar:before {
+  content: "\f4c1";
+}
+.sicon-tradingview:before {
+  content: "\f4c2";
+}
+.sicon-traefikmesh:before {
+  content: "\f4c3";
+}
+.sicon-traefikproxy:before {
+  content: "\f4c4";
+}
+.sicon-trailforks:before {
+  content: "\f4c5";
+}
+.sicon-trainerroad:before {
+  content: "\f4c6";
+}
+.sicon-trakt:before {
+  content: "\f4c7";
+}
+.sicon-transifex:before {
+  content: "\f4c8";
+}
+.sicon-transmission:before {
+  content: "\f4c9";
+}
+.sicon-transportforireland:before {
+  content: "\f4ca";
+}
+.sicon-transportforlondon:before {
+  content: "\f4cb";
+}
+.sicon-travisci:before {
+  content: "\f4cc";
+}
+.sicon-treehouse:before {
+  content: "\f4cd";
+}
+.sicon-trello:before {
+  content: "\f4ce";
+}
+.sicon-trendmicro:before {
+  content: "\f4cf";
+}
+.sicon-tresorit:before {
+  content: "\f4d0";
+}
+.sicon-treyarch:before {
+  content: "\f4d1";
+}
+.sicon-tricentis:before {
+  content: "\f4d2";
+}
+.sicon-trilium:before {
+  content: "\f4d3";
+}
+.sicon-triller:before {
+  content: "\f4d4";
+}
+.sicon-trillertv:before {
+  content: "\f4d5";
+}
+.sicon-trimble:before {
+  content: "\f4d6";
+}
+.sicon-trino:before {
+  content: "\f4d7";
+}
+.sicon-tripadvisor:before {
+  content: "\f4d8";
+}
+.sicon-tripdotcom:before {
+  content: "\f4d9";
+}
+.sicon-trivago:before {
+  content: "\f4da";
+}
+.sicon-trivy:before {
+  content: "\f4db";
+}
+.sicon-trove:before {
+  content: "\f4dc";
+}
+.sicon-trpc:before {
+  content: "\f4dd";
+}
+.sicon-truenas:before {
+  content: "\f4de";
+}
+.sicon-trueup:before {
+  content: "\f4df";
+}
+.sicon-trulia:before {
+  content: "\f4e0";
+}
+.sicon-trustedshops:before {
+  content: "\f4e1";
+}
+.sicon-trustpilot:before {
+  content: "\f4e2";
+}
+.sicon-tryhackme:before {
+  content: "\f4e3";
+}
+.sicon-tryitonline:before {
+  content: "\f4e4";
+}
+.sicon-uber:before {
+  content: "\f4e5";
+}
+.sicon-ubereats:before {
+  content: "\f4e6";
+}
+.sicon-ubiquiti:before {
+  content: "\f4e7";
+}
+.sicon-ubisoft:before {
+  content: "\f4e8";
+}
+.sicon-ublockorigin:before {
+  content: "\f4e9";
+}
+.sicon-ubuntu:before {
+  content: "\f4ea";
+}
+.sicon-ubuntumate:before {
+  content: "\f4eb";
+}
+.sicon-udacity:before {
+  content: "\f4ec";
+}
+.sicon-udemy:before {
+  content: "\f4ed";
+}
+.sicon-udotsdotnews:before {
+  content: "\f4ee";
+}
+.sicon-ufc:before {
+  content: "\f4ef";
+}
+.sicon-uikit:before {
+  content: "\f4f0";
+}
+.sicon-uipath:before {
+  content: "\f4f1";
+}
+.sicon-ukca:before {
+  content: "\f4f2";
+}
+.sicon-ultralytics:before {
+  content: "\f4f3";
+}
+.sicon-ulule:before {
+  content: "\f4f4";
+}
+.sicon-umami:before {
+  content: "\f4f5";
+}
+.sicon-umbraco:before {
+  content: "\f4f6";
+}
+.sicon-umbrel:before {
+  content: "\f4f7";
+}
+.sicon-uml:before {
+  content: "\f4f8";
+}
+.sicon-unacademy:before {
+  content: "\f4f9";
+}
+.sicon-underarmour:before {
+  content: "\f4fa";
+}
+.sicon-underscoredotjs:before {
+  content: "\f4fb";
+}
+.sicon-undertale:before {
+  content: "\f4fc";
+}
+.sicon-unicode:before {
+  content: "\f4fd";
+}
+.sicon-unilever:before {
+  content: "\f4fe";
+}
+.sicon-uniqlo:before {
+  content: "\f4ff";
+}
+.sicon-uniqlo_ja:before {
+  content: "\f500";
+}
+.sicon-unitedairlines:before {
+  content: "\f501";
+}
+.sicon-unitednations:before {
+  content: "\f502";
+}
+.sicon-unity:before {
+  content: "\f503";
+}
+.sicon-unjs:before {
+  content: "\f504";
+}
+.sicon-unlicense:before {
+  content: "\f505";
+}
+.sicon-unocss:before {
+  content: "\f506";
+}
+.sicon-unpkg:before {
+  content: "\f507";
+}
+.sicon-unraid:before {
+  content: "\f508";
+}
+.sicon-unrealengine:before {
+  content: "\f509";
+}
+.sicon-unsplash:before {
+  content: "\f50a";
+}
+.sicon-unstop:before {
+  content: "\f50b";
+}
+.sicon-untappd:before {
+  content: "\f50c";
+}
+.sicon-upcloud:before {
+  content: "\f50d";
+}
+.sicon-uplabs:before {
+  content: "\f50e";
+}
+.sicon-upptime:before {
+  content: "\f50f";
+}
+.sicon-ups:before {
+  content: "\f510";
+}
+.sicon-upstash:before {
+  content: "\f511";
+}
+.sicon-uptimekuma:before {
+  content: "\f512";
+}
+.sicon-upwork:before {
+  content: "\f513";
+}
+.sicon-uphold:before {
+  content: "\f514";
+}
+.sicon-uservoice:before {
+  content: "\f515";
+}
+.sicon-usps:before {
+  content: "\f516";
+}
+.sicon-utorrent:before {
+  content: "\f517";
+}
+.sicon-uv:before {
+  content: "\f518";
+}
+.sicon-v:before {
+  content: "\f519";
+}
+.sicon-v0:before {
+  content: "\f51a";
+}
+.sicon-v2ex:before {
+  content: "\f51b";
+}
+.sicon-v8:before {
+  content: "\f51c";
+}
+.sicon-vaadin:before {
+  content: "\f51d";
+}
+.sicon-vagrant:before {
+  content: "\f51e";
+}
+.sicon-vala:before {
+  content: "\f51f";
+}
+.sicon-valorant:before {
+  content: "\f520";
+}
+.sicon-valve:before {
+  content: "\f521";
+}
+.sicon-vanillaextract:before {
+  content: "\f522";
+}
+.sicon-vapor:before {
+  content: "\f523";
+}
+.sicon-vault:before {
+  content: "\f524";
+}
+.sicon-vaultwarden:before {
+  content: "\f525";
+}
+.sicon-vauxhall:before {
+  content: "\f526";
+}
+.sicon-vbulletin:before {
+  content: "\f527";
+}
+.sicon-vectary:before {
+  content: "\f528";
+}
+.sicon-vectorlogozone:before {
+  content: "\f529";
+}
+.sicon-vectorworks:before {
+  content: "\f52a";
+}
+.sicon-veeam:before {
+  content: "\f52b";
+}
+.sicon-veed:before {
+  content: "\f52c";
+}
+.sicon-veepee:before {
+  content: "\f52d";
+}
+.sicon-vega:before {
+  content: "\f52e";
+}
+.sicon-vegas:before {
+  content: "\f52f";
+}
+.sicon-velocity:before {
+  content: "\f530";
+}
+.sicon-velog:before {
+  content: "\f531";
+}
+.sicon-vencord:before {
+  content: "\f532";
+}
+.sicon-venmo:before {
+  content: "\f533";
+}
+.sicon-vercel:before {
+  content: "\f534";
+}
+.sicon-verdaccio:before {
+  content: "\f535";
+}
+.sicon-veritas:before {
+  content: "\f536";
+}
+.sicon-verizon:before {
+  content: "\f537";
+}
+.sicon-vespa:before {
+  content: "\f538";
+}
+.sicon-vestel:before {
+  content: "\f539";
+}
+.sicon-vexxhost:before {
+  content: "\f53a";
+}
+.sicon-vfairs:before {
+  content: "\f53b";
+}
+.sicon-viadeo:before {
+  content: "\f53c";
+}
+.sicon-viaplay:before {
+  content: "\f53d";
+}
+.sicon-viber:before {
+  content: "\f53e";
+}
+.sicon-viblo:before {
+  content: "\f53f";
+}
+.sicon-victoriametrics:before {
+  content: "\f540";
+}
+.sicon-victronenergy:before {
+  content: "\f541";
+}
+.sicon-vikunja:before {
+  content: "\f542";
+}
+.sicon-vim:before {
+  content: "\f543";
+}
+.sicon-vimeo:before {
+  content: "\f544";
+}
+.sicon-vimeolivestream:before {
+  content: "\f545";
+}
+.sicon-vinted:before {
+  content: "\f546";
+}
+.sicon-virgin:before {
+  content: "\f547";
+}
+.sicon-virginatlantic:before {
+  content: "\f548";
+}
+.sicon-virginmedia:before {
+  content: "\f549";
+}
+.sicon-virtualbox:before {
+  content: "\f54a";
+}
+.sicon-virustotal:before {
+  content: "\f54b";
+}
+.sicon-visa:before {
+  content: "\f54c";
+}
+.sicon-visualparadigm:before {
+  content: "\f54d";
+}
+.sicon-visx:before {
+  content: "\f54e";
+}
+.sicon-vite:before {
+  content: "\f54f";
+}
+.sicon-vitepress:before {
+  content: "\f550";
+}
+.sicon-vitess:before {
+  content: "\f551";
+}
+.sicon-vitest:before {
+  content: "\f552";
+}
+.sicon-vivaldi:before {
+  content: "\f553";
+}
+.sicon-vivawallet:before {
+  content: "\f554";
+}
+.sicon-vivino:before {
+  content: "\f555";
+}
+.sicon-vivint:before {
+  content: "\f556";
+}
+.sicon-vivo:before {
+  content: "\f557";
+}
+.sicon-vk:before {
+  content: "\f558";
+}
+.sicon-vlcmediaplayer:before {
+  content: "\f559";
+}
+.sicon-vmware:before {
+  content: "\f55a";
+}
+.sicon-vodafone:before {
+  content: "\f55b";
+}
+.sicon-voelkner:before {
+  content: "\f55c";
+}
+.sicon-voidlinux:before {
+  content: "\f55d";
+}
+.sicon-voipdotms:before {
+  content: "\f55e";
+}
+.sicon-volkswagen:before {
+  content: "\f55f";
+}
+.sicon-volvo:before {
+  content: "\f560";
+}
+.sicon-vonage:before {
+  content: "\f561";
+}
+.sicon-vorondesign:before {
+  content: "\f562";
+}
+.sicon-vowpalwabbit:before {
+  content: "\f563";
+}
+.sicon-vox:before {
+  content: "\f564";
+}
+.sicon-vrchat:before {
+  content: "\f565";
+}
+.sicon-vsco:before {
+  content: "\f566";
+}
+.sicon-vscodium:before {
+  content: "\f567";
+}
+.sicon-vtex:before {
+  content: "\f568";
+}
+.sicon-vuedotjs:before {
+  content: "\f569";
+}
+.sicon-vuetify:before {
+  content: "\f56a";
+}
+.sicon-vueuse:before {
+  content: "\f56b";
+}
+.sicon-vulkan:before {
+  content: "\f56c";
+}
+.sicon-vultr:before {
+  content: "\f56d";
+}
+.sicon-vyond:before {
+  content: "\f56e";
+}
+.sicon-w3schools:before {
+  content: "\f56f";
+}
+.sicon-wacom:before {
+  content: "\f570";
+}
+.sicon-wagmi:before {
+  content: "\f571";
+}
+.sicon-wagtail:before {
+  content: "\f572";
+}
+.sicon-wails:before {
+  content: "\f573";
+}
+.sicon-wakatime:before {
+  content: "\f574";
+}
+.sicon-walkman:before {
+  content: "\f575";
+}
+.sicon-wallabag:before {
+  content: "\f576";
+}
+.sicon-walletconnect:before {
+  content: "\f577";
+}
+.sicon-walmart:before {
+  content: "\f578";
+}
+.sicon-wantedly:before {
+  content: "\f579";
+}
+.sicon-wappalyzer:before {
+  content: "\f57a";
+}
+.sicon-warnerbros:before {
+  content: "\f57b";
+}
+.sicon-warp:before {
+  content: "\f57c";
+}
+.sicon-wasabi:before {
+  content: "\f57d";
+}
+.sicon-wasmcloud:before {
+  content: "\f57e";
+}
+.sicon-wasmer:before {
+  content: "\f57f";
+}
+.sicon-watchtower:before {
+  content: "\f580";
+}
+.sicon-wattpad:before {
+  content: "\f581";
+}
+.sicon-wayland:before {
+  content: "\f582";
+}
+.sicon-waze:before {
+  content: "\f583";
+}
+.sicon-wazirx:before {
+  content: "\f584";
+}
+.sicon-wearos:before {
+  content: "\f585";
+}
+.sicon-weasyl:before {
+  content: "\f586";
+}
+.sicon-web3dotjs:before {
+  content: "\f587";
+}
+.sicon-webassembly:before {
+  content: "\f588";
+}
+.sicon-webauthn:before {
+  content: "\f589";
+}
+.sicon-webcomponentsdotorg:before {
+  content: "\f58a";
+}
+.sicon-webdotde:before {
+  content: "\f58b";
+}
+.sicon-webdriverio:before {
+  content: "\f58c";
+}
+.sicon-webex:before {
+  content: "\f58d";
+}
+.sicon-webflow:before {
+  content: "\f58e";
+}
+.sicon-webgl:before {
+  content: "\f58f";
+}
+.sicon-webgpu:before {
+  content: "\f590";
+}
+.sicon-weblate:before {
+  content: "\f591";
+}
+.sicon-webmin:before {
+  content: "\f592";
+}
+.sicon-webmoney:before {
+  content: "\f593";
+}
+.sicon-webpack:before {
+  content: "\f594";
+}
+.sicon-webrtc:before {
+  content: "\f595";
+}
+.sicon-webstorm:before {
+  content: "\f596";
+}
+.sicon-webtoon:before {
+  content: "\f597";
+}
+.sicon-webtrees:before {
+  content: "\f598";
+}
+.sicon-wechat:before {
+  content: "\f599";
+}
+.sicon-wegame:before {
+  content: "\f59a";
+}
+.sicon-weightsandbiases:before {
+  content: "\f59b";
+}
+.sicon-welcometothejungle:before {
+  content: "\f59c";
+}
+.sicon-wellfound:before {
+  content: "\f59d";
+}
+.sicon-wellsfargo:before {
+  content: "\f59e";
+}
+.sicon-wemo:before {
+  content: "\f59f";
+}
+.sicon-weread:before {
+  content: "\f5a0";
+}
+.sicon-westerndigital:before {
+  content: "\f5a1";
+}
+.sicon-westernunion:before {
+  content: "\f5a2";
+}
+.sicon-wetransfer:before {
+  content: "\f5a3";
+}
+.sicon-wezterm:before {
+  content: "\f5a4";
+}
+.sicon-wgpu:before {
+  content: "\f5a5";
+}
+.sicon-what3words:before {
+  content: "\f5a6";
+}
+.sicon-whatsapp:before {
+  content: "\f5a7";
+}
+.sicon-wheniwork:before {
+  content: "\f5a8";
+}
+.sicon-wikibooks:before {
+  content: "\f5a9";
+}
+.sicon-wikidata:before {
+  content: "\f5aa";
+}
+.sicon-wikidotgg:before {
+  content: "\f5ab";
+}
+.sicon-wikidotjs:before {
+  content: "\f5ac";
+}
+.sicon-wikimediacommons:before {
+  content: "\f5ad";
+}
+.sicon-wikimediafoundation:before {
+  content: "\f5ae";
+}
+.sicon-wikipedia:before {
+  content: "\f5af";
+}
+.sicon-wikiquote:before {
+  content: "\f5b0";
+}
+.sicon-wikisource:before {
+  content: "\f5b1";
+}
+.sicon-wikiversity:before {
+  content: "\f5b2";
+}
+.sicon-wikivoyage:before {
+  content: "\f5b3";
+}
+.sicon-winamp:before {
+  content: "\f5b4";
+}
+.sicon-windsurf:before {
+  content: "\f5b5";
+}
+.sicon-wine:before {
+  content: "\f5b6";
+}
+.sicon-wipro:before {
+  content: "\f5b7";
+}
+.sicon-wire:before {
+  content: "\f5b8";
+}
+.sicon-wireguard:before {
+  content: "\f5b9";
+}
+.sicon-wireshark:before {
+  content: "\f5ba";
+}
+.sicon-wise:before {
+  content: "\f5bb";
+}
+.sicon-wish:before {
+  content: "\f5bc";
+}
+.sicon-wistia:before {
+  content: "\f5bd";
+}
+.sicon-wix:before {
+  content: "\f5be";
+}
+.sicon-wizzair:before {
+  content: "\f5bf";
+}
+.sicon-wolfram:before {
+  content: "\f5c0";
+}
+.sicon-wolframlanguage:before {
+  content: "\f5c1";
+}
+.sicon-wolframmathematica:before {
+  content: "\f5c2";
+}
+.sicon-wondershare:before {
+  content: "\f5c3";
+}
+.sicon-wondersharefilmora:before {
+  content: "\f5c4";
+}
+.sicon-woo:before {
+  content: "\f5c5";
+}
+.sicon-woocommerce:before {
+  content: "\f5c6";
+}
+.sicon-wordpress:before {
+  content: "\f5c7";
+}
+.sicon-workplace:before {
+  content: "\f5c8";
+}
+.sicon-worldhealthorganization:before {
+  content: "\f5c9";
+}
+.sicon-wpengine:before {
+  content: "\f5ca";
+}
+.sicon-wpexplorer:before {
+  content: "\f5cb";
+}
+.sicon-wprocket:before {
+  content: "\f5cc";
+}
+.sicon-writedotas:before {
+  content: "\f5cd";
+}
+.sicon-wwe:before {
+  content: "\f5ce";
+}
+.sicon-wwise:before {
+  content: "\f5cf";
+}
+.sicon-wxt:before {
+  content: "\f5d0";
+}
+.sicon-wykop:before {
+  content: "\f5d1";
+}
+.sicon-wyze:before {
+  content: "\f5d2";
+}
+.sicon-x:before {
+  content: "\f5d3";
+}
+.sicon-xampp:before {
+  content: "\f5d4";
+}
+.sicon-xcode:before {
+  content: "\f5d5";
+}
+.sicon-xdadevelopers:before {
+  content: "\f5d6";
+}
+.sicon-xdotorg:before {
+  content: "\f5d7";
+}
+.sicon-xendit:before {
+  content: "\f5d8";
+}
+.sicon-xero:before {
+  content: "\f5d9";
+}
+.sicon-xfce:before {
+  content: "\f5da";
+}
+.sicon-xiaohongshu:before {
+  content: "\f5db";
+}
+.sicon-xiaomi:before {
+  content: "\f5dc";
+}
+.sicon-xing:before {
+  content: "\f5dd";
+}
+.sicon-xml:before {
+  content: "\f5de";
+}
+.sicon-xmpp:before {
+  content: "\f5df";
+}
+.sicon-xo:before {
+  content: "\f5e0";
+}
+.sicon-xrp:before {
+  content: "\f5e1";
+}
+.sicon-xsplit:before {
+  content: "\f5e2";
+}
+.sicon-xstate:before {
+  content: "\f5e3";
+}
+.sicon-xubuntu:before {
+  content: "\f5e4";
+}
+.sicon-xyflow:before {
+  content: "\f5e5";
+}
+.sicon-yaak:before {
+  content: "\f5e6";
+}
+.sicon-yabai:before {
+  content: "\f5e7";
+}
+.sicon-yale:before {
+  content: "\f5e8";
+}
+.sicon-yamahacorporation:before {
+  content: "\f5e9";
+}
+.sicon-yamahamotorcorporation:before {
+  content: "\f5ea";
+}
+.sicon-yaml:before {
+  content: "\f5eb";
+}
+.sicon-yandexcloud:before {
+  content: "\f5ec";
+}
+.sicon-yarn:before {
+  content: "\f5ed";
+}
+.sicon-ycombinator:before {
+  content: "\f5ee";
+}
+.sicon-yelp:before {
+  content: "\f5ef";
+}
+.sicon-yeti:before {
+  content: "\f5f0";
+}
+.sicon-yii:before {
+  content: "\f5f1";
+}
+.sicon-yoast:before {
+  content: "\f5f2";
+}
+.sicon-yolo:before {
+  content: "\f5f3";
+}
+.sicon-youhodler:before {
+  content: "\f5f4";
+}
+.sicon-youtube:before {
+  content: "\f5f5";
+}
+.sicon-youtubegaming:before {
+  content: "\f5f6";
+}
+.sicon-youtubekids:before {
+  content: "\f5f7";
+}
+.sicon-youtubemusic:before {
+  content: "\f5f8";
+}
+.sicon-youtubeshorts:before {
+  content: "\f5f9";
+}
+.sicon-youtubestudio:before {
+  content: "\f5fa";
+}
+.sicon-youtubetv:before {
+  content: "\f5fb";
+}
+.sicon-yr:before {
+  content: "\f5fc";
+}
+.sicon-yubico:before {
+  content: "\f5fd";
+}
+.sicon-yunohost:before {
+  content: "\f5fe";
+}
+.sicon-zabka:before {
+  content: "\f5ff";
+}
+.sicon-zaim:before {
+  content: "\f600";
+}
+.sicon-zalando:before {
+  content: "\f601";
+}
+.sicon-zalo:before {
+  content: "\f602";
+}
+.sicon-zap:before {
+  content: "\f603";
+}
+.sicon-zapier:before {
+  content: "\f604";
+}
+.sicon-zara:before {
+  content: "\f605";
+}
+.sicon-zazzle:before {
+  content: "\f606";
+}
+.sicon-zcash:before {
+  content: "\f607";
+}
+.sicon-zcool:before {
+  content: "\f608";
+}
+.sicon-zdf:before {
+  content: "\f609";
+}
+.sicon-zebpay:before {
+  content: "\f60a";
+}
+.sicon-zebratechnologies:before {
+  content: "\f60b";
+}
+.sicon-zedindustries:before {
+  content: "\f60c";
+}
+.sicon-zelle:before {
+  content: "\f60d";
+}
+.sicon-zenbrowser:before {
+  content: "\f60e";
+}
+.sicon-zend:before {
+  content: "\f60f";
+}
+.sicon-zendesk:before {
+  content: "\f610";
+}
+.sicon-zenn:before {
+  content: "\f611";
+}
+.sicon-zenodo:before {
+  content: "\f612";
+}
+.sicon-zensar:before {
+  content: "\f613";
+}
+.sicon-zerodha:before {
+  content: "\f614";
+}
+.sicon-zerotier:before {
+  content: "\f615";
+}
+.sicon-zettlr:before {
+  content: "\f616";
+}
+.sicon-zhihu:before {
+  content: "\f617";
+}
+.sicon-zig:before {
+  content: "\f618";
+}
+.sicon-zigbee:before {
+  content: "\f619";
+}
+.sicon-zigbee2mqtt:before {
+  content: "\f61a";
+}
+.sicon-ziggo:before {
+  content: "\f61b";
+}
+.sicon-zilch:before {
+  content: "\f61c";
+}
+.sicon-zillow:before {
+  content: "\f61d";
+}
+.sicon-zincsearch:before {
+  content: "\f61e";
+}
+.sicon-zingat:before {
+  content: "\f61f";
+}
+.sicon-zod:before {
+  content: "\f620";
+}
+.sicon-zoho:before {
+  content: "\f621";
+}
+.sicon-zoiper:before {
+  content: "\f622";
+}
+.sicon-zola:before {
+  content: "\f623";
+}
+.sicon-zomato:before {
+  content: "\f624";
+}
+.sicon-zoom:before {
+  content: "\f625";
+}
+.sicon-zorin:before {
+  content: "\f626";
+}
+.sicon-zotero:before {
+  content: "\f627";
+}
+.sicon-zsh:before {
+  content: "\f628";
+}
+.sicon-zulip:before {
+  content: "\f629";
+}
+.sicon-zyte:before {
+  content: "\f62a";
+}

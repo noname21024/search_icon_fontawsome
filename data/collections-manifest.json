@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fontawesome",
+    "title": "Font Awesome",
+    "href": "render.html",
+    "processorType": "fa-optimized",
+    "cssPath": "data/fontawesome/fontawesome-free-7.1.0-web/css/all.css",
+    "dataPath": "data/fontawesome/fontawesome-free-7.1.0-web/metadata/icons-optimized.json"
+  },
+  {
+    "id": "lawnicons",
+    "title": "Lawnicons",
+    "href": "render.html?collection=lawnicons",
+    "processorType": "icomoon-batch",
+    "classPrefix": "icons-",
+    "previewConfig": {
+      "cssPath": "data/lawnicons/all.css",
+      "dataPath": "data/lawnicons/chunks/chunk_0.json"
+    },
+    "countPaths": [
+      "data/lawnicons/selection-all.json"
+    ]
+  },
+  {
+    "id": "simpleicons",
+    "title": "Simpleicons",
+    "href": "render.html?collection=simpleicons",
+    "processorType": "icomoon-batch",
+    "classPrefix": "sicon-",
+    "previewConfig": {
+      "cssPath": "data/simpleicons/all.css",
+      "dataPath": "data/simpleicons/chunks/chunk_0.json"
+    },
+    "countPaths": [
+      "data/simpleicons/selections-all.json"
+    ]
+  }
+]

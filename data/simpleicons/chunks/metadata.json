@@ -1,0 +1,79 @@
+{
+  "total_icons": 3371,
+  "chunk_size": 300,
+  "prefix": "icon-",
+  "chunks": [
+    {
+      "file": "chunk_0.json",
+      "start": 0,
+      "end": 299,
+      "count": 300
+    },
+    {
+      "file": "chunk_1.json",
+      "start": 300,
+      "end": 599,
+      "count": 300
+    },
+    {
+      "file": "chunk_2.json",
+      "start": 600,
+      "end": 899,
+      "count": 300
+    },
+    {
+      "file": "chunk_3.json",
+      "start": 900,
+      "end": 1199,
+      "count": 300
+    },
+    {
+      "file": "chunk_4.json",
+      "start": 1200,
+      "end": 1499,
+      "count": 300
+    },
+    {
+      "file": "chunk_5.json",
+      "start": 1500,
+      "end": 1799,
+      "count": 300
+    },
+    {
+      "file": "chunk_6.json",
+      "start": 1800,
+      "end": 2099,
+      "count": 300
+    },
+    {
+      "file": "chunk_7.json",
+      "start": 2100,
+      "end": 2399,
+      "count": 300
+    },
+    {
+      "file": "chunk_8.json",
+      "start": 2400,
+      "end": 2699,
+      "count": 300
+    },
+    {
+      "file": "chunk_9.json",
+      "start": 2700,
+      "end": 2999,
+      "count": 300
+    },
+    {
+      "file": "chunk_10.json",
+      "start": 3000,
+      "end": 3299,
+      "count": 300
+    },
+    {
+      "file": "chunk_11.json",
+      "start": 3300,
+      "end": 3370,
+      "count": 71
+    }
+  ]
+}

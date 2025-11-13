@@ -1,0 +1,48 @@
+{
+  "fontawesome-7.1.0": {
+    "title": "Copy Icons Font Awesome 7.1.0",
+    "family": "fontawesome",
+    "processorType": "fa-optimized",
+    "css": "data/fontawesome/fontawesome-free-7.1.0-web/css/all.css",
+    "json": ["data/fontawesome/fontawesome-free-7.1.0-web/metadata/icons-optimized.json"],
+    "cdn": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css\" integrity=\"sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />",
+    "download": "downloads/fontawesome-free-7.1.0-web.zip",
+    "version": "7.1.0",
+    "fa_style": "new"
+  },
+  "fontawesome-5.15.4": {
+    "title": "Copy Icons Font Awesome 5.15.4",
+    "family": "fontawesome",
+    "processorType": "fa-optimized",
+    "css": "data/fontawesome/fontawesome-free-5.15.4-web/css/all.css",
+    "json": ["data/fontawesome/fontawesome-free-5.15.4-web/metadata/icons-optimized.json"],
+    "cdn": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\" integrity=\"sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />",
+    "download": "downloads/fontawesome-free-5.15.4-web.zip",
+    "version": "5.15.4",
+    "fa_style": "old"
+  },
+  "lawnicons": {
+    "title": "Copy Icons Lawnicons",
+    "family": "lawnicons",
+    "processorType": "icomoon-batch",
+    "css": "data/lawnicons/all.css",
+    "cdn": "<link rel=\"stylesheet\" href=\"data/lawnicons/all.css\" />",
+    "download": "downloads/lawnicons/lawnicons_zip_files.zip",
+    "version": "1.0",
+    "classPrefix": "icons-",
+    "metadata": "data/lawnicons/chunks/metadata.json",
+    "chunkPattern": "data/lawnicons/chunks/chunk_{index}.json"
+  },
+  "simpleicons": {
+    "title": "Copy Icons Simple Icons",
+    "family": "simpleicons",
+    "processorType": "icomoon-batch",
+    "css": "data/simpleicons/all.css",
+    "cdn": "<link rel=\"stylesheet\" href=\"data/simpleicons/all.css\" />",
+    "download": "downloads/lawnicons/lawnicons_zip_files.zip",
+    "version": "1.0",
+    "classPrefix": "sicon-",
+    "metadata": "data/simpleicons/chunks/metadata.json",
+    "chunkPattern": "data/simpleicons/chunks/chunk_{index}.json"
+  }
+}
